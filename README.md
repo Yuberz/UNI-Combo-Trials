@@ -10,7 +10,9 @@ This is a mod for UNDER NIGHT IN-BIRTH II Sys:Celes that adds in more missions f
 - Added 4 Wagner combos from the [Wagner Combo Doc](https://docs.google.com/spreadsheets/d/1mLtjPVEFCC5HSPANTUXbnChpNhzEkSmp2nOIcf_F7AQ/edit?usp=sharing) by Vais.
 
 ## To Do:
-- Fix the second combo bc it requires 66FF but I'm not sure how to implement it yet.
+- Add some Mika Combos
+- Add some Tsurugi Combos
+- Add some Londrekia Combos
 - Everything else, if you want to request a character/specific combo then ping me in discord or open an issue.
 
 ## Combo Sources
