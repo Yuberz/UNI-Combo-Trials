@@ -1,0 +1,20 @@
+## POSITIONS
+Nothing = round start position
+微遠 = Slightly far away
+近距離 = Very Close
+端 = Corner
+
+## METER
+Nothing = 0 meter
+EX = 1 meter
+IW = 2 meters
+
+Example combo:
+{	tmp.append( { title=INSERT TITLE HERE,
+	cat=CATNUM,
+	pos="POSITION",
+	gauge = "METER",
+	stringID="wag_lv1_ss01",
+	expl = Def_TCInfo_Expl_UseGauge,
+	skill={ recipe = ["2B","C","SS","IW"] }, } );
+}
