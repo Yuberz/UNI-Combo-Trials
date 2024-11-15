@@ -19,4 +19,5 @@ This is a section that lists all of the sources for combos used in this mod.
 
 ## Credits
 Massive thanks to [Pixloen](https://x.com/pixloen) for making a [tutorial on how to make these kinds of mods](https://wiki.gbl.gg/w/User:Pixloen/FPANModding/Custom_Mission_Mode_Combos) as well as answering my questions in the [discord](https://discord.gg/ByBaWc2JaC)!
+
 Thanks to [StockSoul](https://x.com/StockSoul) on the discord for helping me make custom detection for certain moves!
