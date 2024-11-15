@@ -2,9 +2,10 @@
 This is a mod for UNDER NIGHT IN-BIRTH II Sys:Celes that adds in more missions for every character.
 
 ## Installation.
-1. If you have any conflicting mods (makes changes to oMtaqooqotvvonnpwmq) then uninstall them or you will have to manually hex edit/make the mod compatible.
-2. Extract all the files to the root of the UNI2 folder. (__English and d folders should be next to uni2.exe).
-3. Boot up the game, and if your language isn't already set to English, set it to English.
+1. Download the latest [release](https://github.com/Yuberz/UNI-Combo-Trials/releases)
+2. If you have any conflicting mods (makes changes to oMtaqooqotvvonnpwmq) then uninstall them or you will have to manually hex edit/make the mod compatible.
+3. Extract all the files to the root of the UNI2 folder. (__English and d folders should be next to uni2.exe).
+4. Boot up the game, and if your language isn't already set to English, set it to English.
 
 ## Current Progress
 - Added 4 Wagner combos from the [Wagner Combo Doc](https://docs.google.com/spreadsheets/d/1mLtjPVEFCC5HSPANTUXbnChpNhzEkSmp2nOIcf_F7AQ/edit?usp=sharing) by Vais.
