@@ -44,23 +44,50 @@ tutorial_define_Hyd22A,"Great for starting pressure since \@236C@ allows you to 
 
 //Wagner
 
-tutorial_define_vais,"These are wagner combos from the pinned Wagner doc in the Wagner Channel by Vais."
+tutorial_define_vais,"These are Wagner combos from the pinned Wagner doc by Vais."
 
-tutorial_define_Wag5A,High damage\@5A@ starter BnB. Also works with \@2A@.
-tutorial_define_Wag5C,Midscreen\@5C@ starter BnB. Requires 2 FFs.
-tutorial_define_Wag5C1,Corner\@5C@ starter BnB. Requires 1 FF.
-tutorial_define_Wag5C2,Corner\@5C@ starter generic meter ender. Can also do \@22C@ \@236B@ > \@B@ J \@2C@   non vorpal for better oki (+20) but only shield buff and a loss of 63 damage.
+tutorial_define_Wag5A,"High damage\@5A@ starter BnB. Also works with \@2A@."
+tutorial_define_Wag5C,"Midscreen\@5C@ starter BnB. Requires 2 FFs."
+tutorial_define_Wag5C1,"Corner\@5C@ starter BnB. Requires 1 FF."
+tutorial_define_Wag5C2,"Corner\@5C@ starter generic meter ender. Can also do \@22C@ \@236B@ > \@B@ J \@2C@   non vorpal for better oki (+20) but only shield buff and a loss of 63 damage."
 
 //Mika
 
-tutorial_define_Vegas,"These are Mika combos from the pinned Mika doc in the Mika Channel by Vegas Orb Enjoyer."
-tutorial_define_Mika1,Starter is anything. This combo uses \@2A@ \@2A@ for example. \@236B@ delay is optional but without delay it will sideswap. More notes on the doc.
-tutorial_define_Mika2,Good starter means any \@B@ normal \@C@ normal \@66B@ and counter hit normals.
-tutorial_define_Mika3,Basic metered anti-air combo midscreen variation.
-tutorial_define_Mika4,Bad Starter corner combo variation 1. Uses \@FF@ to deal more damage but costs more GRD.
-tutorial_define_Mika5,Bad Starter corner combo variation 2. Has an alternative ender that doesn't use FF which saves GRD.
-tutorial_define_Mika6,Good starter means any \@B@ normal \@C@ normal \@66B@ and counter hit normals. It's possible to do 3B instead of TK j.236A but it loses on damage. The trick is to try to do the TK when the hitstun from the starter ends. Otherwise the recovery frames will stop you from doing TK properly.
-tutorial_define_Mika7,Basic anti-air combo corner variation. Unlike the midscreen version this one does not require meter. The first jump cancel in this REQUIRES it to be directly up (8).
+tutorial_define_Vegas,"These are Mika combos from the pinned Mika doc by Vegas Orb Enjoyer."
+
+tutorial_define_Mika1,"Starter is anything. This combo uses \@2A@ \@2A@ for example. \@236B@ delay is optional but without delay it will sideswap. More notes on the doc."
+tutorial_define_Mika2,"Good starter means any \@B@ normal \@C@ normal \@66B@ and counter hit normals."
+tutorial_define_Mika3,"Basic metered anti-air combo midscreen variation."
+tutorial_define_Mika4,"Bad Starter corner combo variation 1. Uses \@FF@ to deal more damage but costs more GRD."
+tutorial_define_Mika5,"Bad Starter corner combo variation 2. Has an alternative ender that doesn't use FF which saves GRD."
+tutorial_define_Mika6,"Good starter means any \@B@ normal \@C@ normal \@66B@ and counter hit normals. It's possible to do 3B instead of TK j.236A but it loses on damage. The trick is to try to do the TK when the hitstun from the starter ends. Otherwise the recovery frames will stop you from doing TK properly."
+tutorial_define_Mika7,"Basic anti-air combo corner variation. Unlike the midscreen version this one does not require meter. The first jump cancel in this REQUIRES it to be directly up (8)."
+
+//Hilda
+
+tutorial_define_Lofty,"These are Hilda combos from CLR that are really good for learning Hilda fundamentals."
+tutorial_define_Achan,"These are newer Hilda combos for UNI2 by a-chan."
+
+tutorial_define_Hilda1,"Midscreen \@A@ midscreen normal starter. VITAL to learn. The tk\@2C@ is optional and less consistent but leads to more damage. Doesn't work closer to the corner."
+tutorial_define_Hilda2,"Midscreen \@A@ midscreen normal starter alternative route. Works if the opponent is too far for tk\@2C@."
+tutorial_define_Hilda3,"Midscreen A normal meter dump combo. 22C will come out as 22B as well."
+tutorial_define_Hilda4,"Midscreen \@B@ midscreen normal starter BnB. Make sure to jump forward (9) after \@3B@! Works in the corner by omitting the microdash."
+tutorial_define_Hilda5,"Midscreen \@B@ midscreen normal starter semi-optimal? Make sure \@22A@ hits before they touch the ground."
+tutorial_define_Hilda6,"Midscreen \@C@ midscreen normal starter BnB. Same route as B starter. Hold forward after \@3B@."
+tutorial_define_Hilda7,"Midscreen \@C@ midscreen normal starter semi-optimal?. Similar route as B starter. Make sure \@22A@ hits before they touch the ground."
+tutorial_define_Hilda8,"Midscreen \@A@ corner normal starter semi-optimal?"
+
+//Tsurugi
+
+tutorial_define_RedSlasher,"These are Tsurugi combos from the pinned Tsurugi doc by RedSlasher."
+tutorial_define_Tsurugi1,"Bad Starter \@A@ starter combo."
+tutorial_define_Tsurugi2,"Optimal midscreen \@A@ starter combo. Omit the \@J236EX@ for meterless version."
+tutorial_define_Tsurugi3,"Optimal midscreen \@B@ starter combo."
+
+//Londrekia
+
+tutorial_define_Tukibito,"These are Londrekia combos from the pinned Londrekia doc by Tukibito."
+tutorial_define_Tsurugi1,"Bad Starter \@A@ starter combo."
 
 tutorial_define_tci011,Confirm special attacks.
 tutorial_define_tci012,Risky

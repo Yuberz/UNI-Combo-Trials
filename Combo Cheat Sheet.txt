@@ -1,3 +1,48 @@
+## STEPS TO ADD YOUR OWN COMBOS
+1. Open __English/System/str_jp/stringfile_tutorial.csv
+2. Search for "custom" to find where all the custom text definitions are.
+3. You need to add a line for every custom mission and category. It's pretty self explanitory. I use a comment to write which character it's for, then the categories then the mission descriptions.
+4. Open __English/grpdat/tutorial/_define.txt
+5. Search for "custom" to find where custom infos/categories are. Make sure to increment the category number. Add all of the text.
+6. Open the respective character folder in __English/grpdat/tutorial/.
+000 = Hyde
+001 = Linne
+002 = Waldstein
+003 = Carmine
+004 = Orie
+005 = Gordeau
+006 = Merkava
+007 = Vatista
+008 = Seth
+009 = Yuzuriha
+010 = Hilda
+011 = Eltnum
+012 = Nanase
+013 = Byakuya
+014 = Akatsuki
+015 = Chaos
+016 = Wagner
+017 = Enkidu
+018 = Londrekia
+019 = Tsurugi
+020 = Uzuki
+021 = Mika
+022 = Kaguya
+023 = Kuon
+024 = Phonon
+
+7. Open _info.txt
+8. Add new combos AFTER the last combo, the rest should be self explanitory.
+9. When making combos, ignore stringID. Fill it with something random, it's for replays.
+
+## TROUBLESHOOTING
+
+- Make sure that the title, position, etc. are in quotation marks.
+- Make sure that you didn't miss any of the text definitions. (Steps 1 and 4)
+- Mistakes often happen with move notation. Try removing the combo and troubleshooting it move by move.
+- If there is a move that is impossible to notate/isn't detected, ping me in discord.
+
+
 ## POSITIONS
 Nothing = round start position
 微遠 = Slightly far away
@@ -25,7 +70,7 @@ dX = Delay X
 (X) = whiff X
 JX = Jumping X
 jc = jump cancel
-TK.X = Tiger Knee X
+TK.X = Tiger Knee X? (doesn't seem to work)
 iX = increase X
 >X = X is a followup
 X(#) = X should only hit # times.
@@ -38,7 +83,7 @@ IW = Infinite Worth 41236D.
 IWEX = Infinite Worth EX A+B+C+D
 _ = prefix, meaning that it's a setup.
 
-
+i comes before J in notation, so j.[C] would be "iJC"
 
 Example combo:
 {	tmp.append( { title="INSERT TITLE HERE",
@@ -51,21 +96,6 @@ Example combo:
 	skill={ recipe = ["2B","C","SS","IW"] }, } );
 }
 
-{	tmp.append( { title="623 Anti-Air Midscreen BnB 3300 Damage"
-	cat=15,
-	//pos = "対空",
-	//enemy = "COM",
-	stringID="mik_lv3_commandthrow02",
-	expl = Def_TCInfo_Mika3,
-	skill={ recipe = ["623A",">623_AddA","J236EX","J236EX_add7C","J236EX_add2C"] }, } );
-}
-
-{	tmp.append( { title="Bad Starter Midscreen BnB 2700 Damage",
-	cat=15,
-	stringID="mik_lv3_commandthrow02",
-	expl = Def_TCInfo_Mika3,
-	skill={ recipe = ["2A","2A","3B","dJ236B","B","iC","jc","iJC","(JB)","J623A","JB","JC","JA","JA_JA","J236A"] }, } );
-}
 
 Character Specifics:
 

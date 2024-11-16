@@ -1,0 +1,435 @@
+//
+local tmp = [];
+
+// 初級
+{	tmp.append( { title=Def_TCName_BNBLv0,
+	cat=Def_TCNum_Level0,
+	stringID="kag_lv0_fastpushback01",
+	expl = Def_TCInfo_Expl_FastPushBack,
+	skill={ recipe = ["2A","2B","B","B_B","2C"] }, } );
+}
+
+{	tmp.append( { title=Def_TCName_BNBLv0,
+	cat=Def_TCNum_Level0,
+	stringID="kag_lv0_pokepushback01",
+	expl = Def_TCInfo_Expl_PokePushBack,
+	skill={ recipe = ["B","B_B","3C",] }, } );
+}
+
+{	tmp.append( { title=Def_TCName_BNBLv0,
+	cat=Def_TCNum_Level0,
+	stringID="kag_lv0_useaerial01",
+	expl = Def_TCInfo_Expl_UseAerial,
+	skill={ recipe = ["2A","2B","2C","jc","JA","JB","JC"] }, } );
+}
+
+//231030 追加
+{	tmp.append( { title=Def_TCName_BNBLv0,
+	cat=Def_TCNum_Level0,
+	gauge = "IW",
+	stringID="kag_lv0_fastpushback02",
+	expl = Def_TCInfo_Expl_FastPushBack,
+	skill={ recipe = ["A","A2","A3","A4","A5","A6"] }, } );
+}
+
+// 中級
+{	tmp.append( { title=Def_TCName_BNBLv1,
+	cat = Def_TCNum_Level1,
+	stringID="kag_lv1_rampage01",
+	expl = Def_TCInfo_Expl_Rampage,
+	skill= { recipe = ["2A","2B","B","B_B","236A",">236_AddA",">236Add_AddA"] } } );
+}
+
+{	tmp.append( { title=Def_TCName_BNBLv1,
+	cat=Def_TCNum_Level1,
+	stringID="kag_lv1_poke01",
+	expl = Def_TCInfo_Expl_Poke,
+	skill= { recipe = ["B","B_B","2C","623B"] } } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_Poke,
+	pos="近距離",cat=Def_TCNum_Level1,
+	enemy = "立",
+	stringID="kag_lv1_poke02",
+	expl = Def_TCInfo_Expl_Poke,
+	skill= { recipe = ["2C","3C","3C_AddA","B","B_B","623A"] } } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_Poke,
+	pos="中央遠",cat=Def_TCNum_Level1,
+	stringID="kag_lv1_poke03",
+	expl = Def_TCInfo_Expl_Poke,
+	skill= { recipe = ["Kag66C","66","66B","623A"] } } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_UseGauge,
+	cat=Def_TCNum_Level1,
+	stringID="kag_lv1_usegauge01",
+	gauge = "EX",
+	expl = Def_TCInfo_Expl_UseGauge,
+	skill= { recipe = ["2A","2B","B","B_B","236A",">236_AddA",">236Add_AddA","236EX"] } } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_Poke,
+	pos="遠距離",cat=Def_TCNum_Level1,
+	stringID="kag_lv1_poke04",
+	gauge = "EX",
+	expl = Def_TCInfo_Expl_Poke,
+	skill= { recipe = ["236B",">236_AddB","236EX","Kag66C"] } } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_Poke,
+	pos="微遠",cat=Def_TCNum_Level1,
+	stringID="kag_lv1_poke05",
+	gauge = "EX",
+	expl = Def_TCInfo_Expl_Poke,
+	skill= { recipe = ["3C","3C_AddB","214EX","d66","66B","623A"] } } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_UseGauge,
+	cat=Def_TCNum_Level1,
+	stringID="kag_lv1_usegauge02",
+	gauge = "IW",
+	expl = Def_TCInfo_Expl_UseGauge,
+	skill= { recipe = ["2A","2B","B","B_B","236A",">236_AddA",">236Add_AddA","IW"] } } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_UseGauge,
+	cat=Def_TCNum_Level1,
+	pos="近距離",
+	gauge = "IW",
+	stringID="kag_lv1_ss01",
+	expl = Def_TCInfo_Expl_UseGauge,
+	skill={ recipe = ["B","B_B","SS","IW"] }, } );
+}
+
+// 上級
+{	tmp.append( { title=Def_TCName_BNBLv2,
+	cat = Def_TCNum_Level2,
+	stringID="kag_lv2_rampage01",
+	expl = Def_TCInfo_Expl_Rampage,
+	skill= { recipe = ["2A","2B","2C","jc","JB","JC","J2C","66B","623A"] } } );
+}
+
+{	tmp.append( { title=Def_TCName_BNBLv2,
+	pos="中央近",cat = Def_TCNum_Level2,
+	stringID="kag_lv2_poke01",
+	expl = Def_TCInfo_Expl_Poke,
+	skill= { recipe = ["B","B_B","3C","3C_AddA","B","B_B","623A"] } } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_Poke,
+	pos="微遠",cat = Def_TCNum_Level2,
+	// enemy = "立",
+	stringID="kag_lv2_poke02",
+	expl = Def_TCInfo_Expl_Poke,
+	skill= { recipe = ["3C","3C_AddA","B","B_B","jc","JB","JC","J2C","66B","623A"] } } );
+}
+
+{	tmp.append( { title=Def_TCName_BNBLv2,
+	pos="遠距離",cat = Def_TCNum_Level2,
+	stringID="kag_lv2_poke04",
+	expl = Def_TCInfo_Expl_Poke,
+	skill= { recipe = ["Kag66C","66","B","B_B","jc","JB","JC","J2C","66B","623A"] } } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_Overhead,
+	pos="微遠",cat=Def_TCNum_Level2,
+	stringID="kag_lv2_assault01",
+	enemy = "屈",
+	expl = Def_TCInfo_Expl_Assault,
+	skill={ recipe = ["6D","*JC","2A","2B","2C","jc","JB","JC","J2C","66B","623A"] }, } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_UseGauge,
+	cat = Def_TCNum_Level2,
+	gauge = "EX",
+	stringID="kag_lv2_usegauge01",
+	expl = Def_TCInfo_Expl_UseGauge,
+	skill= { recipe = ["2A","2B","2C","jc","JB","JC","J2C","66B","236A",">236_AddA",">236Add_AddA","623EX"] } } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_Poke,
+	pos="遠距離", cat=Def_TCNum_Level2,
+	stringID="kag_lv2_poke03",
+	gauge="EX",
+	expl = Def_TCInfo_Expl_Poke,
+	skill={ recipe = ["236B",">236_AddB","236EX","d2C","jc","JB","JC","J2C","66B","623A"] }, } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_Rampage,
+	cat=Def_TCNum_Level2,
+	stringID="kag_lv2_rampage02",
+	gauge="EX",
+	expl = Def_TCInfo_Expl_Rampage,
+	skill={ recipe = ["623A(3)","J214EX","d66","9","iJC","66B","623A"] }, } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_CVO,
+	cat = Def_TCNum_Level2,
+	gauge = "EXCS",
+	stringID="kag_lv2_cvo01",
+	expl = Def_TCInfo_Expl_CVO,
+	skill= { recipe = ["2A","2B","2C","jc","JB","JC","J2C","66B","236A",">236_AddA",">236Add_AddA","CVO","CIW"] } } );
+}
+
+// 超上級
+{	tmp.append( { title=Def_TCName_BNBLv3,
+	cat = Def_TCNum_Level3,
+	stringID="kag_lv3_rampage01",
+	expl = Def_TCInfo_Expl_Rampage,
+	skill= { recipe = ["2A","2A","2C","jc","JC","J236B","J214B","J2C","JB","liJC","C","B","B_B","623A"] } } );
+}
+
+{	tmp.append( { title=Def_TCName_BNBLv3,
+	pos="微近", cat = Def_TCNum_Level3,
+	// enemy = "立",
+	stringID="kag_lv3_poke01",
+	expl = Def_TCInfo_Expl_Poke,
+	skill= { recipe = ["B","B_B","3C","3C_AddA","2B(1)","2C","214B","JB","JB_JB","J236A",">J236_Add9","iJC","66B","623A"] } } );
+}
+
+{	tmp.append( { title=Def_TCName_BNBLv3,
+	pos="端",cat = Def_TCNum_Level3,
+	cat = Def_TCNum_Level3,
+	stringID = "kag_lv3_throw01",
+	expl = Def_TCInfo_Expl_Throw,
+	skill= { recipe = ["AD","B","B_B","jc","JB","J2C","J236A",">J236_Add9","iJC","C","3C","3C_AddB","623A"] } } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_Poke,
+	pos="微遠",cat = Def_TCNum_Level3,
+	stringID="kag_lv3_poke02",
+	// enemy = "屈",
+	expl = Def_TCInfo_Expl_Overhead,
+	skill= { recipe = ["3C","3C_AddB","214B","JB","JB_JB","J236A",">J236_Add9","iJC","2C","6C","B","B_B","623A"] } } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_Overhead,
+	pos="微遠", cat = Def_TCNum_Level3,
+	stringID="kag_lv3_assault01",
+	enemy = "屈",
+	expl = Def_TCInfo_Expl_Assault,
+	skill={ recipe = ["6D","*JC","2A","2C","jc","JC","J236B","J214B","JA","JB","liJC","C","B","B_B","623A"] }, } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_Poke,
+	pos="遠距離",cat = Def_TCNum_Level3,
+	stringID="kag_lv3_poke03",
+	// enemy = "屈",
+	expl = Def_TCInfo_Expl_Overhead,
+	skill= { recipe = ["Kag66C","66","C","jc","JB","J2C","J236A",">J236_Add9","iJC","2C","6C","B","B_B","623A"] } } );
+}
+
+// {	tmp.append( { title=Def_TCInfo_Title_Low,
+	// pos="中距離",cat = Def_TCNum_Level3,
+	// stringID="kag_lv3_low01",
+	// enemy="立",
+	// expl = Def_TCInfo_Expl_Low,
+	// skill= { recipe = ["66B","2C","4B","2B","jc","JB","JC","J236A",">J236_Add9","iJC","66B","236A",">236_AddA",">236Add_AddA"] } } );
+// }
+
+{	tmp.append( { title=Def_TCInfo_Title_Antiair,
+	cat = Def_TCNum_Level3,
+	enemy = "ジャンプ",
+	stringID = "kag_lv3_antiair01",
+	expl = Def_TCInfo_Expl_Antiair,
+	skill= { recipe = ["4B","jc","JB","J2C","J236A",">J236_Add9","iJC","2C","6C","B","B_B","623A"] } } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_Reversal,
+	cat = Def_TCNum_Level3,
+	gauge = "EXCS",
+	stringID = "kag_lv3_reversal01",
+	expl = Def_TCInfo_Expl_Reversal,
+	skill= { recipe = ["623EX(12)","CS","JB","JB_JB","J236A",">J236_Add9","iJC","2C","6C","B","B_B","623A"] } } );
+}
+
+{	tmp.append( { title=Def_TCInfo_Title_Punishment,
+	cat = Def_TCNum_Level3,
+	stringID="kag_lv3_punishment01",
+	expl = Def_TCInfo_Expl_Punishment,
+	// skill= { recipe = ["C","4B","djc","JA","JB","J2C","2B(1)","2C","214B","J236A",">J236_Add9","iJC","2A","B","B_B","6C","3C","3C_AddB","623A"] } } );
+	skill= { recipe = ["C","4B","jc","JB","JB_JB","J214A","J236C",">J236_Add8","dJ2C","dliJC","2C(1)","3C","3C_AddB","623A"] } } );
+}
+
+//VO組み込みは意味が無くなったので実装しない
+// {	tmp.append( { title=Def_TCInfo_Title_VOInsert,
+	// pos="端",cat = Def_TCNum_Level3,
+	// gauge="EX",
+	// stringID="kag_lv3_voinsert01",
+	// expl = Def_TCInfo_Expl_VOInsert,
+	// skill= { recipe = ["2A","2A","B","B_B","2C","4B","jc","diJC","VO_Hit"] } } );
+// }
+
+// {	tmp.append( { title=Def_TCInfo_Title_VOInsert,
+	// cat = Def_TCNum_Level3,
+	// gauge="IW",
+	// stringID="kag_lv3_voinsert02",
+	// expl = Def_TCInfo_Expl_VOInsert,
+	// skill= { recipe = ["2A","2A","B","B_B","3C","3C_AddB","214EX","66","VO_Hit"] } } );
+// }
+
+// {	tmp.append( { title=Def_TCInfo_Title_UseGauge,
+	// cat = Def_TCNum_Level3,
+	// stringID="kag_lv3_usegauge01",
+	// gauge = "IW",
+	// expl = Def_TCInfo_Expl_UseGauge,
+	// skill= { recipe = ["2A","2A","2C","jc","JC","J236B","J214B","J2C","JB","liJC","66B","236A",">236_AddA",">236Add_AddA","IW"] } } );
+// }
+
+// {	tmp.append( { title=Def_TCInfo_Title_CVO,
+	// cat = Def_TCNum_Level3,
+	// stringID="kag_lv3_cvo01",
+	// gauge="CVO",
+	// expl = Def_TCInfo_Expl_CVO,
+	// skill= { recipe = ["2A","2A","2C","jc","JC","J236B","J214B","J2C","JB","liJC","66B","236A",">236_AddA",">236Add_AddA","CVO","236EX","CIW"] } } );
+// }
+
+{	tmp.append( { title=Def_TCInfo_Title_Dying,
+	cat = Def_TCNum_Level3,
+	stringID="kag_lv3_dying01",
+	gauge="DCVO",
+	expl = Def_TCInfo_Expl_Dying,
+	// skill= { recipe = ["2A","2A","CVO","4B","jc","JB","JB_JB","J236A",">J236_Add9","iJC","C","2C","B","B_B","6C","3C","3C_AddB(1)","236A",">236_AddA",">236Add_AddA","d236EX(11)","CIW"] } } );
+	skill= { recipe = ["2A","2A","2C","jc","JC","J236B","J214B","J2C","JB","liJC","66B","236A",">236_AddA",">236Add_AddA","CVO","d623A(3)","J214EX","236EX","CIW"] } } );
+}
+
+// 戦術指南
+{	tmp.append( { title = Def_Tactics_Title_Footsies,
+	cat = Def_TCNum_TacticsLv1,
+	expl = Def_TCInfo_Expl_BattleTactics,
+	stringID="kag_tactics_footsies",
+	endtype = 1,
+	start_csv = 1,//CSVの定義あり
+
+skill= { recipe = [
+		{ skill="B", add={ reset=0 } },
+		{ skill="2C", add={ reset=0 } },
+		{ skill="JB", add={ reset=0} },
+		{ skill="J2C", add={ reset=0} },
+		{ skill="214A", add={ reset=0} },
+		{ skill="214B", add={ reset=0} },
+		{ skill="J236A", add={ reset=0} },
+		] }
+	} );
+}
+
+// 戦術指南
+{	tmp.append( { title = Def_Tactics_Title_Sequence,
+	cat = Def_TCNum_TacticsLv1,
+	expl = Def_TCInfo_Expl_BattleTactics,
+	stringID = "kag_tactics_pressure",
+	enemy="COM",
+	skilltype = 0,//1ステップずつチェック
+	endtype = 1,
+	viewtype = 0, //矢型
+	start_csv = 1,//CSVの定義あり
+
+skill= { recipe = [
+		// ガード時の固め連携
+		{ skill="B", add={ reset=3, instext=TCW_Pressure_Guard } },
+		{ skill="B_B", add={ reset=3, resetX=(1<<8), postype=1 } },
+		{ skill="2C", add={ reset=3, resetX=(1<<8), postype=1 } },
+		{ skill="236A", add={ reset=3, resetX=(1<<8), postype=1 } },
+		{ skill="checkpoint" },
+		// ヒット時の固め連携
+		{ skill="B", add={ instext=TCW_Pressure_Hit } },
+		{ skill="B_B", add={ postype=1 } },
+		{ skill="2C", add={ postype=1 } },
+		{ skill="236A", add={ postype=1 } },
+		{ skill=">236_AddA", add={ postype=1 } },
+		{ skill=">236Add_AddA", add={ postype=1 } },
+		] }
+	} );
+}
+
+
+// 戦術指南
+{	tmp.append( { title = Def_Tactics_Title_Mixup,
+	cat = Def_TCNum_TacticsLv1,
+	expl = Def_TCInfo_Expl_BattleTactics,
+	gauge = "CS",
+	stringID = "kag_tactics_mixup",
+	enemy="COM",
+
+	skilltype = 0,//1ステップずつチェック
+	endtype = 1,
+	viewtype = 0, //矢型
+	start_csv = 1,//CSVの定義あり
+
+skill= { recipe = [
+		{ skill="Dash_Assault", add={ instext=TCW_Mixup_Overhead } },
+		{ skill="*JA", add={ reset=3, postype=1, mvcode1=def_MC1_SidouHitSkill } },
+		{ skill="CS", add={ reset=4, postype=1 } },
+		{ skill="JC", add={ reset=3, resetX=(1<<8), postype=1 } },
+		{ skill="checkpoint" },{ skill="66", add={ reset=4, instext=TCW_Mixup_Low } },
+		{ skill="2A", add={ reset=3, resetX=(1<<8), postype=1, mvcode1=def_MC1_SidouHitSkill } },
+		{ skill="checkpoint" },
+		] }
+	} );
+}
+
+// 戦術指南
+{	tmp.append( { title =  Def_Tactics_Title_Invincible,
+	cat = Def_TCNum_TacticsLv1,
+	expl = Def_TCInfo_Expl_BattleTactics,
+	gauge = "EXCS",
+	stringID = "kag_tactics_invincible",
+	enemy="COM",
+	skilltype = 0,//1ステップずつチェック
+	endtype=1,
+	viewtype = 0, //矢型
+	start_csv = 1,//CSVの定義あり
+
+skill= { recipe = [
+		{ skill="623EX", add={ reset=3, resetX=(1<<8),mvcode1=def_MC1_SidouHitSkill } },
+		] }
+	} );
+}
+
+// 戦術指南
+{	tmp.append( { title =  Def_Tactics_Title_Antiair,
+	cat = Def_TCNum_TacticsLv1,
+	expl = Def_TCInfo_Expl_BattleTactics,
+	stringID = "kag_tactics_antiair",
+	enemy="COM",
+	
+	skilltype = 0,//1ステップずつチェック
+	endtype = 1,
+	viewtype = 0, //矢型
+	start_csv = 1,//CSVの定義あり
+
+skill= { recipe = [
+		{ skill="4B", add={ mvcode1=def_MC1_SidouHitSkill } },
+		{ skill="jc", add={ postype=1 } },
+		{ skill="JB", add={ postype=1 } },
+		{ skill="JC", add={ postype=1  } },
+		{ skill="J2C", add={ postype=1  } },
+		{ skill="checkpoint"}
+		] }
+	} );
+}
+
+Table <- GetMissionListTable(); // ミッションのカテゴリーの定義は共通
+
+//
+local skillParam = 
+{
+	charaNo = Def_ChrNo_Kag,
+}
+
+Table.listcount = tmp.len();
+Table.list.resize( Table.listcount );
+for( local i=0; i<tmp.len(); i++ )
+{
+	if( "skill" in tmp[i] )
+	{
+		tmp[i].skill.param <- skillParam;
+	}
+	tmp[i].player <- Def_ChrNo_Kag;
+	tmp[i].num <- i;//英語版用
+	local skillTable = GetSkillCheckTable( tmp[i] );
+	Table.list[i] = skillTable;
+}
+

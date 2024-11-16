@@ -63,6 +63,18 @@ Def_TCInfo_Mika5 <- sqfunc.GetExStringText("tutorial_define_Mika5");
 Def_TCInfo_Mika6 <- sqfunc.GetExStringText("tutorial_define_Mika6");
 Def_TCInfo_Mika7 <- sqfunc.GetExStringText("tutorial_define_Mika7");
 
+//Hilda
+Def_TCInfo_Lofty <- sqfunc.GetExStringText("tutorial_define_Lofty");
+Def_TCInfo_Achan <- sqfunc.GetExStringText("tutorial_define_Achan");
+Def_TCInfo_Hilda1 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
+Def_TCInfo_Hilda2 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
+Def_TCInfo_Hilda3 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
+Def_TCInfo_Hilda4 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
+Def_TCInfo_Hilda5 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
+Def_TCInfo_Hilda6 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
+Def_TCInfo_Hilda7 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
+Def_TCInfo_Hilda8 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
+
 
 Def_TCInfo_Title_Rampage <- sqfunc.GetExStringText("tutorial_define_tci012");
 Def_TCInfo_Title_Overhead <- sqfunc.GetExStringText("tutorial_define_tci013");
