@@ -1,20 +1,80 @@
 ## POSITIONS
 Nothing = round start position
 微遠 = Slightly far away
-近距離 = Very Close
+近距離 = Close, about just out of 5A ranges.
+端背負い = Point Blank, back to left corner.
 端 = Corner
+中央 = Center?
+中距離 = Midscreen? Appears to be round start? Useless?
+中央微遠 = Midscreen far away, useful for assault starters
 
 ## METER
 Nothing = 0 meter
 EX = 1 meter
 IW = 2 meters
+CS = Vorpal
+Can be stacked. EXCS = 1 meter + vorpal.
+
+## OPPONENT STATUS
+屈 = Crouching?
+立 = Stand Blocking
+
+## Combo Notation
+X + Y = X and Y have to be pressed simultaneously
+dX = Delay X
+(X) = whiff X
+JX = Jumping X
+jc = jump cancel
+TK.X = Tiger Knee X
+iX = increase X
+>X = X is a followup
+X(#) = X should only hit # times.
+lX = X should be done after landing 
+hX = X should be held even after the attack (Negative edge)
+CS = Chain Shift
+CVO = Crosscast Veil Off
+CIW = Infinite worth using A+B+C while in CVO
+IW = Infinite Worth 41236D.
+IWEX = Infinite Worth EX A+B+C+D
+_ = prefix, meaning that it's a setup.
+
+
 
 Example combo:
-{	tmp.append( { title=INSERT TITLE HERE,
+{	tmp.append( { title="INSERT TITLE HERE",
 	cat=CATNUM,
 	pos="POSITION",
+	enemy="STATUS",
 	gauge = "METER",
 	stringID="wag_lv1_ss01",
 	expl = Def_TCInfo_Expl_UseGauge,
 	skill={ recipe = ["2B","C","SS","IW"] }, } );
 }
+
+{	tmp.append( { title="623 Anti-Air Midscreen BnB 3300 Damage"
+	cat=15,
+	//pos = "対空",
+	//enemy = "COM",
+	stringID="mik_lv3_commandthrow02",
+	expl = Def_TCInfo_Mika3,
+	skill={ recipe = ["623A",">623_AddA","J236EX","J236EX_add7C","J236EX_add2C"] }, } );
+}
+
+{	tmp.append( { title="Bad Starter Midscreen BnB 2700 Damage",
+	cat=15,
+	stringID="mik_lv3_commandthrow02",
+	expl = Def_TCInfo_Mika3,
+	skill={ recipe = ["2A","2A","3B","dJ236B","B","iC","jc","iJC","(JB)","J623A","JB","JC","JA","JA_JA","J236A"] }, } );
+}
+
+Character Specifics:
+
+Wagner (chr016):
+Use "Wag66FF" to detect 66FF.
+j.4FF is just JFF internally.
+
+Mika (chr021):
+To do j.AA, you do JA > JA_JA.
+To do her followups off of 236X, it is always 236_addXA where X is the direction in numpad notation. Specifically for the EX version it has to be J236EX,J236EX_addXC.
+For 623 followups, do 623X,>623_AddX
+To do 22A~X, do 22A,>MikaAdd

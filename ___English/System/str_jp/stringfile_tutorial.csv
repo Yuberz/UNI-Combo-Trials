@@ -51,6 +51,16 @@ tutorial_define_Wag5C,Midscreen\@5C@ starter BnB. Requires 2 FFs.
 tutorial_define_Wag5C1,Corner\@5C@ starter BnB. Requires 1 FF.
 tutorial_define_Wag5C2,Corner\@5C@ starter generic meter ender. Can also do \@22C@ \@236B@ > \@B@ J \@2C@   non vorpal for better oki (+20) but only shield buff and a loss of 63 damage.
 
+//Mika
+
+tutorial_define_Vegas,"These are Mika combos from the pinned Mika doc in the Mika Channel by Vegas Orb Enjoyer."
+tutorial_define_Mika1,Starter is anything. This combo uses \@2A@ \@2A@ for example. \@236B@ delay is optional but without delay it will sideswap. More notes on the doc.
+tutorial_define_Mika2,Good starter means any \@B@ normal \@C@ normal \@66B@ and counter hit normals.
+tutorial_define_Mika3,Basic metered anti-air combo midscreen variation.
+tutorial_define_Mika4,Bad Starter corner combo variation 1. Uses \@FF@ to deal more damage but costs more GRD.
+tutorial_define_Mika5,Bad Starter corner combo variation 2. Has an alternative ender that doesn't use FF which saves GRD.
+tutorial_define_Mika6,Good starter means any \@B@ normal \@C@ normal \@66B@ and counter hit normals. It's possible to do 3B instead of TK j.236A but it loses on damage. The trick is to try to do the TK when the hitstun from the starter ends. Otherwise the recovery frames will stop you from doing TK properly.
+tutorial_define_Mika7,Basic anti-air combo corner variation. Unlike the midscreen version this one does not require meter. The first jump cancel in this REQUIRES it to be directly up (8).
 
 tutorial_define_tci011,Confirm special attacks.
 tutorial_define_tci012,Risky

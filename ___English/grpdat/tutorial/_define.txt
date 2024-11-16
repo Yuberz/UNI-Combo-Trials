@@ -46,11 +46,22 @@ Def_TCInfo_Hyd236X <- sqfunc.GetExStringText("tutorial_define_Hyd236X");
 Def_TCInfo_Hyd22A <- sqfunc.GetExStringText("tutorial_define_Hyd22A");
 
 //Wagner
-Def_TCInfo_Vais <- sqfunc.GetExStringText("tutorial_define_vais"); 
+Def_TCInfo_Vais <- sqfunc.GetExStringText("tutorial_define_Vais"); 
 Def_TCInfo_Wag5A <- sqfunc.GetExStringText("tutorial_define_Wag5A"); 
 Def_TCInfo_Wag5C <- sqfunc.GetExStringText("tutorial_define_Wag5C"); 
 Def_TCInfo_Wag5C1 <- sqfunc.GetExStringText("tutorial_define_Wag5C1");
 Def_TCInfo_Wag5C2 <- sqfunc.GetExStringText("tutorial_define_Wag5C2"); 
+
+
+//Mika
+Def_TCInfo_Vegas <- sqfunc.GetExStringText("tutorial_define_Vegas");
+Def_TCInfo_Mika1 <- sqfunc.GetExStringText("tutorial_define_Mika1");
+Def_TCInfo_Mika2 <- sqfunc.GetExStringText("tutorial_define_Mika2");
+Def_TCInfo_Mika3 <- sqfunc.GetExStringText("tutorial_define_Mika3");
+Def_TCInfo_Mika4 <- sqfunc.GetExStringText("tutorial_define_Mika4");
+Def_TCInfo_Mika5 <- sqfunc.GetExStringText("tutorial_define_Mika5");
+Def_TCInfo_Mika6 <- sqfunc.GetExStringText("tutorial_define_Mika6");
+Def_TCInfo_Mika7 <- sqfunc.GetExStringText("tutorial_define_Mika7");
 
 
 Def_TCInfo_Title_Rampage <- sqfunc.GetExStringText("tutorial_define_tci012");
@@ -231,6 +242,7 @@ GetMissionListTable <- function()
 	// custom category
 	ret_table.menu.append( { title="Mizuumi Wiki Starters", category=13, explanation=Def_TCInfo_MizuumiBNB } ); ret_table.menucount++;
 	ret_table.menu.append( { title="Vais Wagner Combos", category=14, explanation=Def_TCInfo_Vais } ); ret_table.menucount++;
+	ret_table.menu.append( { title="Vegas Doc Mika Combos", category=15, explanation=Def_TCInfo_Vegas } ); ret_table.menucount++;
 	
 	
 	return ret_table;
@@ -2004,7 +2016,7 @@ local skillList =
 		[Def_ChrNo_Set] = { type=0,  text=WAAir+"\\@44@ or \\@4+A+B@",  mvname="Mv_Skill_J0202B", reset=4 },
 		[Def_ChrNo_Elt] = { type=0,  text=WAAir+"\\@44@ or \\@4+A+B@",  mvname="Mv_Skill_J0202B", reset=4 },
 	},
-
+	
 	["J22"] = 
 	{
 		common = { type=0,  text=WAAir+"\\@2+A+B@",  mvname="Mv_Skill_J0202A" },
@@ -2055,6 +2067,7 @@ local skillList =
 	["66C"] = { type=0,  text=lws_Dash+"\\@C@",  mvname="Mv_Atk_DashStdC" },
 	["66FF"] = { type=0,  text=lws_Dash+"\\@B+C@",  mvname="Mv_Atk_DashStdBandC" },
 	["Wag66FF"] = { type=0,  text=lws_Dash+"\\@B+C@",  mvname="Mv_FireBall_DashStdBandC" },
+	["MikaAdd"] = { type=0,  text="\\@AorBorC@",  mvname="Mv_Skill_0202_Add" },
 	["Kag66C"] = { type=0,  text=lws_Dash+"\\@C@",  mvname="Mv_FireBall_DashStdC" },
 	
 	["VO"] = { type=0,  text="\\@U@",  mvname="Mv_Liberate", reset=2 },
