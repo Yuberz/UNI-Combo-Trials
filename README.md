@@ -23,6 +23,7 @@ This is a section that lists all of the sources for combos used in this mod.
 - Wagner: [Wagner Advanced/New Combos Detailed](https://docs.google.com/spreadsheets/d/1mLtjPVEFCC5HSPANTUXbnChpNhzEkSmp2nOIcf_F7AQ/edit?usp=sharing) by Vais.
 - Hyde: [Hyde Combo Page on mizuumi wiki](https://wiki.gbl.gg/w/Under_Night_In-Birth/UNI2/Hyde/Combos)
 - Mika: [UNI2 Mika Combo Doc](https://docs.google.com/document/d/10oDhL7BlbmNopmQqsV9xGptSMFbw7bC4USfPQikPV90/edit?usp=sharing) by Vegas Orb Enjoyer
+- Hilda: [Hilda Combo Guide](https://docs.google.com/spreadsheets/d/1dG-xEE5tbwvImDF9dN46asLjfm_xLYunmHSl_AlXWWk/edit?pli=1&gid=0#gid=0) by a-chantopgun
 
 ## Credits
 Massive thanks to [Pixloen](https://x.com/pixloen) for making a [tutorial on how to make these kinds of mods](https://wiki.gbl.gg/w/User:Pixloen/FPANModding/Custom_Mission_Mode_Combos) as well as answering my questions in the [discord](https://discord.gg/ByBaWc2JaC)!
