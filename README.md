@@ -12,7 +12,7 @@ This is a mod for UNDER NIGHT IN-BIRTH II Sys:Celes that adds in more missions f
 - Added 4 Wagner combos
 - Added 7 Mika combos
 
-## To Do:
+## To Do
 - Add some Hilda Combos
 - Add some Tsurugi Combos
 - Add some Londrekia Combos
