@@ -1,5 +1,5 @@
 # UNI-Combo-Trials
-This is a mod for UNDER NIGHT IN-BIRTH II Sys:Celes that adds in more missions for every character.
+This is a mod for UNDER NIGHT IN-BIRTH II Sys:Celes that will add in more missions for every character.
 
 ## Installation
 1. Download the latest [release](https://github.com/Yuberz/UNI-Combo-Trials/releases).
