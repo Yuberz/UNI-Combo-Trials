@@ -41,6 +41,7 @@
 - Make sure that you didn't miss any of the text definitions. (Steps 1 and 4)
 - Mistakes often happen with move notation. Try removing the combo and troubleshooting it move by move.
 - If there is a move that is impossible to notate/isn't detected, ping me in discord.
+- You can refresh the missions (_info.txt) by going to character select and picking the character. You don't have to restart or go to main menu. For everything else, you do have to restart though.
 
 
 ## POSITIONS
@@ -99,6 +100,12 @@ Example combo:
 
 Character Specifics:
 
+Hilda (chr010):
+[MOVE]zurashi[X] means that while doing the first move, also hold X for negative edge.
+J2CzurashiB means to do J2C while also holding B to start doing negative edge.
+J236AddWarpC means to do J236A and then press C to warp.
+ReleaseB should be pretty self explanitory.
+
 Wagner (chr016):
 Use "Wag66FF" to detect 66FF.
 j.4FF is just JFF internally.
@@ -108,3 +115,4 @@ To do j.AA, you do JA > JA_JA.
 To do her followups off of 236X, it is always 236_addXA where X is the direction in numpad notation. Specifically for the EX version it has to be J236EX,J236EX_addXC.
 For 623 followups, do 623X,>623_AddX
 To do 22A~X, do 22A,>MikaAdd
+

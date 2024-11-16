@@ -11,9 +11,9 @@ This is a mod for UNDER NIGHT IN-BIRTH II Sys:Celes that will add in more missio
 - Kept the example Hyde combos from Pixloen's iteration of this mod.
 - Added 4 Wagner combos
 - Added 7 Mika combos
+- Added 9 Hilda combos
 
 ## To Do
-- Add some Hilda Combos
 - Add some Tsurugi Combos
 - Add some Londrekia Combos
 - Everything else, if you want to request a character/specific combo then ping me in discord or open an issue.

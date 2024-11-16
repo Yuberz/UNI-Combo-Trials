@@ -58,24 +58,25 @@ tutorial_define_Vegas,"These are Mika combos from the pinned Mika doc by Vegas O
 tutorial_define_Mika1,"Starter is anything. This combo uses \@2A@ \@2A@ for example. \@236B@ delay is optional but without delay it will sideswap. More notes on the doc."
 tutorial_define_Mika2,"Good starter means any \@B@ normal \@C@ normal \@66B@ and counter hit normals."
 tutorial_define_Mika3,"Basic metered anti-air combo midscreen variation."
-tutorial_define_Mika4,"Bad Starter corner combo variation 1. Uses \@FF@ to deal more damage but costs more GRD."
+tutorial_define_Mika4,"Bad Starter corner combo variation 1. Uses Force Function to deal more damage but costs more GRD."
 tutorial_define_Mika5,"Bad Starter corner combo variation 2. Has an alternative ender that doesn't use FF which saves GRD."
 tutorial_define_Mika6,"Good starter means any \@B@ normal \@C@ normal \@66B@ and counter hit normals. It's possible to do 3B instead of TK j.236A but it loses on damage. The trick is to try to do the TK when the hitstun from the starter ends. Otherwise the recovery frames will stop you from doing TK properly."
 tutorial_define_Mika7,"Basic anti-air combo corner variation. Unlike the midscreen version this one does not require meter. The first jump cancel in this REQUIRES it to be directly up (8)."
 
 //Hilda
 
-tutorial_define_Lofty,"These are Hilda combos from CLR that are really good for learning Hilda fundamentals."
 tutorial_define_Achan,"These are newer Hilda combos for UNI2 by a-chan."
 
-tutorial_define_Hilda1,"Midscreen \@A@ midscreen normal starter. VITAL to learn. The tk\@2C@ is optional and less consistent but leads to more damage. Doesn't work closer to the corner."
-tutorial_define_Hilda2,"Midscreen \@A@ midscreen normal starter alternative route. Works if the opponent is too far for tk\@2C@."
-tutorial_define_Hilda3,"Midscreen A normal meter dump combo. 22C will come out as 22B as well."
-tutorial_define_Hilda4,"Midscreen \@B@ midscreen normal starter BnB. Make sure to jump forward (9) after \@3B@! Works in the corner by omitting the microdash."
-tutorial_define_Hilda5,"Midscreen \@B@ midscreen normal starter semi-optimal? Make sure \@22A@ hits before they touch the ground."
-tutorial_define_Hilda6,"Midscreen \@C@ midscreen normal starter BnB. Same route as B starter. Hold forward after \@3B@."
-tutorial_define_Hilda7,"Midscreen \@C@ midscreen normal starter semi-optimal?. Similar route as B starter. Make sure \@22A@ hits before they touch the ground."
-tutorial_define_Hilda8,"Midscreen \@A@ corner normal starter semi-optimal?"
+tutorial_define_Hilda1,"Midscreen bad starter. Can do \@2A@ up to 3 times. Slightly more damaging route. There is a slight meter focused route on the doc."
+tutorial_define_Hilda2,"Midscreen \@B@ starter."
+tutorial_define_Hilda3,"Midscreen \@66B@ starter."
+tutorial_define_Hilda4,"Midscreen \@2C@ starter."
+tutorial_define_Hilda5,"Midscreen \@iC@ starter."
+tutorial_define_Hilda6,"Corner bad starter. Can do \@2A@ up to 3 times."
+tutorial_define_Hilda7,"Corner \@B@ starter. After 3B, you have to jump vertically (8) otherwise the combo will drop."
+tutorial_define_Hilda8,"Max damage \@B@ starter."
+tutorial_define_Hilda9,"Max damage \@iJC@ starter. You'll have to back up a little farther than backdash range so that j.[C] will connect with 236B."
+
 
 //Tsurugi
 

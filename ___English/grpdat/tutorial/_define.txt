@@ -64,16 +64,16 @@ Def_TCInfo_Mika6 <- sqfunc.GetExStringText("tutorial_define_Mika6");
 Def_TCInfo_Mika7 <- sqfunc.GetExStringText("tutorial_define_Mika7");
 
 //Hilda
-Def_TCInfo_Lofty <- sqfunc.GetExStringText("tutorial_define_Lofty");
 Def_TCInfo_Achan <- sqfunc.GetExStringText("tutorial_define_Achan");
 Def_TCInfo_Hilda1 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
-Def_TCInfo_Hilda2 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
-Def_TCInfo_Hilda3 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
-Def_TCInfo_Hilda4 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
-Def_TCInfo_Hilda5 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
-Def_TCInfo_Hilda6 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
-Def_TCInfo_Hilda7 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
-Def_TCInfo_Hilda8 <- sqfunc.GetExStringText("tutorial_define_Hilda1");
+Def_TCInfo_Hilda2 <- sqfunc.GetExStringText("tutorial_define_Hilda2");
+Def_TCInfo_Hilda3 <- sqfunc.GetExStringText("tutorial_define_Hilda3");
+Def_TCInfo_Hilda4 <- sqfunc.GetExStringText("tutorial_define_Hilda4");
+Def_TCInfo_Hilda5 <- sqfunc.GetExStringText("tutorial_define_Hilda5");
+Def_TCInfo_Hilda6 <- sqfunc.GetExStringText("tutorial_define_Hilda6");
+Def_TCInfo_Hilda7 <- sqfunc.GetExStringText("tutorial_define_Hilda7");
+Def_TCInfo_Hilda8 <- sqfunc.GetExStringText("tutorial_define_Hilda8");
+Def_TCInfo_Hilda9 <- sqfunc.GetExStringText("tutorial_define_Hilda9");
 
 
 Def_TCInfo_Title_Rampage <- sqfunc.GetExStringText("tutorial_define_tci012");
@@ -255,6 +255,7 @@ GetMissionListTable <- function()
 	ret_table.menu.append( { title="Mizuumi Wiki Starters", category=13, explanation=Def_TCInfo_MizuumiBNB } ); ret_table.menucount++;
 	ret_table.menu.append( { title="Vais Wagner Combos", category=14, explanation=Def_TCInfo_Vais } ); ret_table.menucount++;
 	ret_table.menu.append( { title="Vegas Doc Mika Combos", category=15, explanation=Def_TCInfo_Vegas } ); ret_table.menucount++;
+	ret_table.menu.append( { title="A-chan Hilda Combos", category=16, explanation=Def_TCInfo_Achan } ); ret_table.menucount++;
 	
 	
 	return ret_table;
@@ -2027,6 +2028,7 @@ local skillList =
 		common = { type=0,  text=WAAir+"\\@44@ or \\@4+A+B@",  mvname="Mv_Skill_J0202B" },
 		[Def_ChrNo_Set] = { type=0,  text=WAAir+"\\@44@ or \\@4+A+B@",  mvname="Mv_Skill_J0202B", reset=4 },
 		[Def_ChrNo_Elt] = { type=0,  text=WAAir+"\\@44@ or \\@4+A+B@",  mvname="Mv_Skill_J0202B", reset=4 },
+		[Def_ChrNo_Hil] = { type=0,  text=WAAir+"\\@44@ or \\@4+A+B@",  mvname="Mv_Skill_J0202B", reset=4 },
 	},
 	
 	["J22"] = 

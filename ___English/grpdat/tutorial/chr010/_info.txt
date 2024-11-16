@@ -360,6 +360,82 @@ local tmp = [];
 }
 */
 
+// Begin Custom Combos
+
+{	tmp.append( { title="Midscreen Bad Starter. ~3023 Damage",
+	//pos = "端",
+	cat = 16,
+	stringID = "hil_lv3_antiair01",
+	expl = Def_TCInfo_Hilda1,
+	skill={ recipe = ["2A","hB","2C","jc","J2C","623A","C","C_C","22A","623A","66C","ReleaseB"] }, } );
+}
+
+{	tmp.append( { title="Midscreen B Starter. ~3236 Damage",
+	//pos = "端",
+	cat = 16,
+	stringID = "hil_lv3_antiair01",
+	expl = Def_TCInfo_Hilda2,
+	skill={ recipe = ["B","B_B","623A","iFF","J44","J6D","JA","dJB","i3B","jc","iJC","dJ2C","22A","C","3C","3C_3C","ReleaseB"] }, } );
+}
+
+{	tmp.append( { title="Midscreen 66B Starter. ~3423 Damage",
+	//pos = "端",
+	cat = 16,
+	stringID = "hil_lv3_antiair01",
+	expl = Def_TCInfo_Hilda3,
+	skill={ recipe = ["66B","236B","2C","2C_2C","623A","66","h3B","jc","iJC","dJ2C","22A","C","3C","3C_3C","ReleaseB"] }, } );
+}
+
+{	tmp.append( { title="Midscreen 2C Starter. ~3130 Damage",
+	//pos = "端",
+	cat = 16,
+	stringID = "hil_lv3_antiair01",
+	expl = Def_TCInfo_Hilda4,
+	skill={ recipe = ["2C","2C_2C","623A","66","jc","JB","J2C","2A","i3B","iJC","dJ2C","22A","C","3C","3C_3C","ReleaseB"] }, } );
+}
+
+{	tmp.append( { title="Midscreen [C] Starter. ~3163 Damage",
+	//pos = "端",
+	cat = 16,
+	stringID = "hil_lv3_antiair01",
+	expl = Def_TCInfo_Hilda5,
+	skill={ recipe = ["iC","623A","66","JB","J2C","2A","h3B","jc","iJC","dJ2C","22A","C","3C","3C_3C","ReleaseB"] }, } );
+}
+
+{	tmp.append( { title="Corner Bad Starter. ~3006 Damage",
+	pos = "端",
+	cat = 16,
+	stringID = "hil_lv3_antiair01",
+	expl = Def_TCInfo_Hilda6,
+	skill={ recipe = ["2A","hB","2C","2C_2C","d236A","jc","J2C","22A","C","3C","3C_3C","ReleaseB"] }, } );
+}
+
+{	tmp.append( { title="Corner B > B Starter. ~3159 Damage",
+	pos = "端",
+	cat = 16,
+	stringID = "hil_lv3_antiair01",
+	expl = Def_TCInfo_Hilda7,
+	skill={ recipe = ["B","B_B","2C","2C_2C","623A","h3B","8","iJC","jJ2C","22A","C","3C","3C_3C","ReleaseB"] }, } );
+}
+
+{	tmp.append( { title="Corner Max damage B Starter. ~3339 Damage",
+	pos = "端",
+	cat = 16,
+	stringID = "hil_lv3_antiair01",
+	expl = Def_TCInfo_Hilda8,
+	skill={ recipe = ["B","2C","2C_2C","d623A","jc","J2C","h22A","C","iFF","3B","jc","iJC","3C","3C_3C","ReleaseA"] }, } );
+}
+
+{	tmp.append( { title="Corner Max damage j.[C] Starter. ~3310 Damage",
+	pos = "端",
+	cat = 16,
+	gauge = "EX",
+	stringID = "hil_lv3_antiair01",
+	expl = Def_TCInfo_Hilda9,
+	skill={ recipe = ["(JA)","iJC","hJ236B","623A","C","C_C","22A","22C(2)","ReleaseB","623B","FF_Add2A"] }, } );
+}
+
+
 // 戦術指南
 {	tmp.append( { title =  Def_Tactics_Title_Footsies,
 	cat = Def_TCNum_TacticsLv1,
