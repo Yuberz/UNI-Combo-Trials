@@ -46,11 +46,13 @@ Def_TCInfo_Hyd236X <- sqfunc.GetExStringText("tutorial_define_Hyd236X");
 Def_TCInfo_Hyd22A <- sqfunc.GetExStringText("tutorial_define_Hyd22A");
 
 //Wagner
-Def_TCInfo_Vais <- sqfunc.GetExStringText("tutorial_define_Vais"); 
-Def_TCInfo_Wag5A <- sqfunc.GetExStringText("tutorial_define_Wag5A"); 
-Def_TCInfo_Wag5C <- sqfunc.GetExStringText("tutorial_define_Wag5C"); 
+Def_TCInfo_Vais <- sqfunc.GetExStringText("tutorial_define_Vais");
+Def_TCInfo_Wag5A <- sqfunc.GetExStringText("tutorial_define_Wag5A");
+Def_TCInfo_Wag5A1 <- sqfunc.GetExStringText("tutorial_define_Wag5A1");
+Def_TCInfo_Wag5B <- sqfunc.GetExStringText("tutorial_define_Wag5A");
+Def_TCInfo_Wag5C <- sqfunc.GetExStringText("tutorial_define_Wag5C");
 Def_TCInfo_Wag5C1 <- sqfunc.GetExStringText("tutorial_define_Wag5C1");
-Def_TCInfo_Wag5C2 <- sqfunc.GetExStringText("tutorial_define_Wag5C2"); 
+Def_TCInfo_Wag5C2 <- sqfunc.GetExStringText("tutorial_define_Wag5C2");
 
 
 //Mika

@@ -46,10 +46,12 @@ tutorial_define_Hyd22A,"Great for starting pressure since \@236C@ allows you to 
 
 tutorial_define_vais,"These are Wagner combos from the pinned Wagner doc by Vais."
 
-tutorial_define_Wag5A,"High damage\@5A@ starter BnB. Also works with \@2A@."
-tutorial_define_Wag5C,"Midscreen\@5C@ starter BnB. Requires 2 FFs."
-tutorial_define_Wag5C1,"Corner\@5C@ starter BnB. Requires 1 FF."
-tutorial_define_Wag5C2,"Corner\@5C@ starter generic meter ender. Can also do \@22C@ \@236B@ > \@B@ J \@2C@   non vorpal for better oki (+20) but only shield buff and a loss of 63 damage."
+tutorial_define_Wag5A,"High damage\@A@ starter midscreen BnB. Also works with \@2A@."
+tutorial_define_Wag5A1,"High damage\@A@ starter corner BnB. Also works with \@2A@."
+tutorial_define_Wag5B,"High damage\@B@ starter BnB. Easier in vorpal."
+tutorial_define_Wag5C,"Midscreen\@C@ starter BnB. Requires 2 FFs."
+tutorial_define_Wag5C1,"Corner\@C@ starter BnB. Requires 1 FF."
+tutorial_define_Wag5C2,"Corner\@C@ starter generic meter ender. Can also do \@22C@ \@236B@ > \@B@ J \@2C@   non vorpal for better oki (+20) but only shield buff and a loss of 63 damage."
 
 //Mika
 

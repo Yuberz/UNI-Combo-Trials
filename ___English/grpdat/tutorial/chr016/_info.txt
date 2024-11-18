@@ -581,12 +581,28 @@ skill= { recipe = [
 	skill={ recipe = ["2A","B","FF","66B","iFF","22A","2C","d>3C","jc","iJB","iJ236B","66C","236A","d>236_AddA","iJC","66C","22A"] }, } );
 }
 
+{	tmp.append( { title="5B Midscreen BNB 3507 Damage",
+	pos="‹ß‹——£",
+	cat=14,
+	stringID="wag_tactics_ball_invincible",
+	expl = Def_TCInfo_Wag5B,
+	skill={ recipe = ["B","6B","6C","iFF","22A","Wag66FF","22B","2C","dC","3C","iJB","iJ236B","66C","236A","d>236_AddA","iJC","22A"] }, } );
+}
+
 {	tmp.append( { title="5C Midscreen BNB 3689 Damage",
 	pos="‹ß‹——£",
 	cat=14,
 	stringID="wag_tactics_ball_invincible",
 	expl = Def_TCInfo_Wag5C,
 	skill={ recipe = ["C","2C","iFF","22A","66","B","dJC","iJB","Wag66FF","d3C","i214A","66C","236A","d>236_AddA","(JA)","iJB","iJC","22A"] }, } );
+}
+
+{	tmp.append( { title="XA Corner BNB 3251 Damage",
+	pos="’[",
+	cat=14,
+	stringID="wag_tactics_ball_invincible",
+	expl = Def_TCInfo_Wag5A1,
+	skill={ recipe = ["A","C","214B","iFF","22A","3C","i214A","2C","d6B","iJB","dJ2C","66C","236A","d>236_AddA","iJC","22A"] }, } );
 }
 
 {	tmp.append( { title="5C Corner BNB 3859 Damage",

@@ -9,7 +9,7 @@ This is a mod for UNDER NIGHT IN-BIRTH II Sys:Celes that will add in more missio
 
 ## Current Progress
 - Kept the example Hyde combos from [Pixloen's iteration of this mod](https://wiki.gbl.gg/w/User:Pixloen/FPANModding/Example_Mods).
-- Added 4 Wagner combos
+- Added 6 Wagner combos
 - Added 7 Mika combos
 - Added 9 Hilda combos
 
