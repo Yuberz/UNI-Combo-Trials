@@ -281,3 +281,8 @@ tutorial_define_Tsurugi3,"Optimal midscreen \@B@ starter combo."
 
 tutorial_define_Tukibito,"These are Londrekia combos from the pinned Londrekia doc by Tukibito."
 tutorial_define_Tsurugi1,"Bad Starter \@A@ starter combo."
+
+//Izumi
+tutorial_define_MizuumiIzumi,"These are Izumi combos from Mizuumi Wiki. Day 2 combos, so these combos are subject to change."
+tutorial_define_IzumiA1,"\@2B@ in this combo highly prorates in other combos and can be ommitted for minimal damage loss. Don't make it a habit!"
+tutorial_define_IzumiB1,"Also works on \@2C@ >\@5C@."

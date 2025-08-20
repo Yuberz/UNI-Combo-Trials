@@ -46,6 +46,12 @@ Def_TCInfo_Hilda7 <- sqfunc.GetExStringText("tutorial_define_Hilda7");
 Def_TCInfo_Hilda8 <- sqfunc.GetExStringText("tutorial_define_Hilda8");
 Def_TCInfo_Hilda9 <- sqfunc.GetExStringText("tutorial_define_Hilda9");
 
+//Izumi
+Def_TCInfo_MizuumiIzumi <- sqfunc.GetExStringText("tutorial_define_MizuumiIzumi");
+Def_TCInfo_IzumiA1 <- sqfunc.GetExStringText("tutorial_define_IzumiA1");
+Def_TCInfo_IzumiB1 <- sqfunc.GetExStringText("tutorial_define_IzumiB1");
+
+
 // チュートリアル用定数？
 //
 Def_TCName_BNB <- sqfunc.GetExStringText("tutorial_define_tcn000");
@@ -253,6 +259,7 @@ GetMissionListTable <- function()
 	ret_table.menu.append( { title="Vais Wagner Combos", category=14, explanation=Def_TCInfo_Vais } ); ret_table.menucount++;
 	ret_table.menu.append( { title="Vegas Doc Mika Combos", category=15, explanation=Def_TCInfo_Vegas } ); ret_table.menucount++;
 	ret_table.menu.append( { title="A-chan Hilda Combos", category=16, explanation=Def_TCInfo_Achan } ); ret_table.menucount++;
+	ret_table.menu.append( { title="Izumi Mizuumi Wiki Combos", category=17, explanation=Def_TCInfo_MizuumiIzumi } ); ret_table.menucount++;
 	
 	
 	return ret_table;
