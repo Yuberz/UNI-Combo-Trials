@@ -1,36 +1,5 @@
 print("\n>>grpdat/tutorial/_define.txt start");
 
-// チュートリアル用定数？
-//
-Def_TCName_BNB <- sqfunc.GetExStringText("tutorial_define_tcn000");
-Def_TCName_BNBLv0 <- sqfunc.GetExStringText("tutorial_define_tcn000");
-Def_TCName_BNBLv1 <- sqfunc.GetExStringText("tutorial_define_tcn000");
-Def_TCName_BNBLv2 <- sqfunc.GetExStringText("tutorial_define_tcn000");
-Def_TCName_BNBLv3 <- sqfunc.GetExStringText("tutorial_define_tcn000");
-Def_TCName_SkillCheck <- sqfunc.GetExStringText("tutorial_define_tcn005");
-Def_TCName_Level0 <- sqfunc.GetExStringText("tutorial_define_tcn006");
-Def_TCName_Level1 <- sqfunc.GetExStringText("tutorial_define_tcn007");
-Def_TCName_Level2 <- sqfunc.GetExStringText("tutorial_define_tcn008");
-Def_TCName_Level3 <- sqfunc.GetExStringText("tutorial_define_tcn009");
-Def_TCName_Level3_2 <- sqfunc.GetExStringText("tutorial_define_tcn009"); //190121追加
-Def_TCName_TacticsLv1 <- sqfunc.GetExStringText("tutorial_define_tcn010");
-Def_TCName_TacticsLv2 <- sqfunc.GetExStringText("tutorial_define_tcn011");
-Def_TCName_TacticsLv3 <- sqfunc.GetExStringText("tutorial_define_tcn012");
-
-Def_TCInfo_BNBLv0 <- sqfunc.GetExStringText("tutorial_define_tci000");
-Def_TCInfo_BNBLv1 <- sqfunc.GetExStringText("tutorial_define_tci001");
-Def_TCInfo_BNBLv2 <- sqfunc.GetExStringText("tutorial_define_tci002");
-Def_TCInfo_BNBLv3 <- sqfunc.GetExStringText("tutorial_define_tci003");
-Def_TCInfo_Level0 <- sqfunc.GetExStringText("tutorial_define_tci004");
-Def_TCInfo_Level1 <- sqfunc.GetExStringText("tutorial_define_tci005");
-Def_TCInfo_Level2 <- sqfunc.GetExStringText("tutorial_define_tci006");
-Def_TCInfo_Level3 <- sqfunc.GetExStringText("tutorial_define_tci007");
-Def_TCInfo_Level3_2 <- sqfunc.GetExStringText("tutorial_define_tci027"); //190121追加
-Def_TCInfo_TacticsLv1 <- sqfunc.GetExStringText("tutorial_define_tci008");
-Def_TCInfo_TacticsLv2 <- sqfunc.GetExStringText("tutorial_define_tci009");
-Def_TCInfo_TacticsLv3 <- sqfunc.GetExStringText("tutorial_define_tci010");
-Def_TCInfo_SkillCheck <- sqfunc.GetExStringText("tutorial_define_tci011");
-
 //Custom Infos
 
 //Hyde
@@ -77,6 +46,36 @@ Def_TCInfo_Hilda7 <- sqfunc.GetExStringText("tutorial_define_Hilda7");
 Def_TCInfo_Hilda8 <- sqfunc.GetExStringText("tutorial_define_Hilda8");
 Def_TCInfo_Hilda9 <- sqfunc.GetExStringText("tutorial_define_Hilda9");
 
+// チュートリアル用定数？
+//
+Def_TCName_BNB <- sqfunc.GetExStringText("tutorial_define_tcn000");
+Def_TCName_BNBLv0 <- sqfunc.GetExStringText("tutorial_define_tcn000");
+Def_TCName_BNBLv1 <- sqfunc.GetExStringText("tutorial_define_tcn000");
+Def_TCName_BNBLv2 <- sqfunc.GetExStringText("tutorial_define_tcn000");
+Def_TCName_BNBLv3 <- sqfunc.GetExStringText("tutorial_define_tcn000");
+Def_TCName_SkillCheck <- sqfunc.GetExStringText("tutorial_define_tcn005");
+Def_TCName_Level0 <- sqfunc.GetExStringText("tutorial_define_tcn006");
+Def_TCName_Level1 <- sqfunc.GetExStringText("tutorial_define_tcn007");
+Def_TCName_Level2 <- sqfunc.GetExStringText("tutorial_define_tcn008");
+Def_TCName_Level3 <- sqfunc.GetExStringText("tutorial_define_tcn009");
+Def_TCName_Level3_2 <- sqfunc.GetExStringText("tutorial_define_tcn009"); //190121追加
+Def_TCName_TacticsLv1 <- sqfunc.GetExStringText("tutorial_define_tcn010");
+Def_TCName_TacticsLv2 <- sqfunc.GetExStringText("tutorial_define_tcn011");
+Def_TCName_TacticsLv3 <- sqfunc.GetExStringText("tutorial_define_tcn012");
+
+Def_TCInfo_BNBLv0 <- sqfunc.GetExStringText("tutorial_define_tci000");
+Def_TCInfo_BNBLv1 <- sqfunc.GetExStringText("tutorial_define_tci001");
+Def_TCInfo_BNBLv2 <- sqfunc.GetExStringText("tutorial_define_tci002");
+Def_TCInfo_BNBLv3 <- sqfunc.GetExStringText("tutorial_define_tci003");
+Def_TCInfo_Level0 <- sqfunc.GetExStringText("tutorial_define_tci004");
+Def_TCInfo_Level1 <- sqfunc.GetExStringText("tutorial_define_tci005");
+Def_TCInfo_Level2 <- sqfunc.GetExStringText("tutorial_define_tci006");
+Def_TCInfo_Level3 <- sqfunc.GetExStringText("tutorial_define_tci007");
+Def_TCInfo_Level3_2 <- sqfunc.GetExStringText("tutorial_define_tci027"); //190121追加
+Def_TCInfo_TacticsLv1 <- sqfunc.GetExStringText("tutorial_define_tci008");
+Def_TCInfo_TacticsLv2 <- sqfunc.GetExStringText("tutorial_define_tci009");
+Def_TCInfo_TacticsLv3 <- sqfunc.GetExStringText("tutorial_define_tci010");
+Def_TCInfo_SkillCheck <- sqfunc.GetExStringText("tutorial_define_tci011");
 
 Def_TCInfo_Title_Rampage <- sqfunc.GetExStringText("tutorial_define_tci012");
 Def_TCInfo_Title_Overhead <- sqfunc.GetExStringText("tutorial_define_tci013");
@@ -233,10 +232,6 @@ TCW_Throw_Shield <- sqfunc.GetExStringText("tutorial_define_tcw006");
 // ミッション「弾抜け」の頭につける文字
 TCW_BallInvincible <- sqfunc.GetExStringText("tutorial_define_tcw007");
 
-
-
-
-
 GetMissionListTable <- function()
 {
 	local ret_table = {
@@ -253,7 +248,7 @@ GetMissionListTable <- function()
 	ret_table.menu.append( { title=Def_TCName_Level2, category=Def_TCNum_Level2, explanation=Def_TCInfo_Level2 } ); ret_table.menucount++;
 	ret_table.menu.append( { title=Def_TCName_Level3, category=Def_TCNum_Level3, explanation=Def_TCInfo_Level3 } ); ret_table.menucount++;
 	
-	// custom category
+	// custom categories
 	ret_table.menu.append( { title="Mizuumi Wiki Starters", category=13, explanation=Def_TCInfo_MizuumiBNB } ); ret_table.menucount++;
 	ret_table.menu.append( { title="Vais Wagner Combos", category=14, explanation=Def_TCInfo_Vais } ); ret_table.menucount++;
 	ret_table.menu.append( { title="Vegas Doc Mika Combos", category=15, explanation=Def_TCInfo_Vegas } ); ret_table.menucount++;
@@ -370,6 +365,9 @@ GetSkillCheckTable <- function( param={} )
 	case Def_ChrNo_Tsu:
 		ret_param.enemy = Def_ChrNo_Pho;
 		break;
+	case Def_ChrNo_Udu:
+		ret_param.enemy = Def_ChrNo_Hil;
+		break;
 	case Def_ChrNo_Mik:
 		ret_param.enemy = Def_ChrNo_Ori;
 		break;
@@ -381,6 +379,12 @@ GetSkillCheckTable <- function( param={} )
 		break;
 	case Def_ChrNo_Pho:
 		ret_param.enemy = Def_ChrNo_Nan;
+		break;
+	case Def_ChrNo_Ogr:
+		ret_param.enemy = Def_ChrNo_Hil;
+		break;
+	case Def_ChrNo_Izu:
+		ret_param.enemy = Def_ChrNo_Hyd;
 		break;
 	default:
 		ret_param.enemy = Def_ChrNo_Hyd;
@@ -525,6 +529,12 @@ GetSkillCheckTable <- function( param={} )
 		ret_param.startpos = 0;
 		ret_param.startdistance = 490;
 		break;
+	case "中央中距離M": // ヒルダB文鎮
+		ret_param.startpos = 0;
+		ret_param.startdistance = 600;
+		tag.append(Tag_PosTyuuou);
+		// tag.append(Tag_PosTyukyori);
+		break;
 	case "中央":
 		tag.append(Tag_PosTyuuou);
 	default: // 中央
@@ -540,7 +550,6 @@ GetSkillCheckTable <- function( param={} )
 		case Def_TCNum_Level2:
 		case Def_TCNum_Level3:
 		case Def_TCNum_Level3_2:
-		case 13:
 			ret_param.startpos = 0;
 			ret_param.startdistance = 120;
 			break;
@@ -612,11 +621,6 @@ GetSkillCheckTable <- function( param={} )
 		break;
 	case "ジャンプ":
 		ret_param.enemytype = 1;
-		tag.append(Tag_EnemyAntiAir);
-		break;
-	case "ジャンプCH":
-		ret_param.enemytype = 1;
-		ret_param.counterhit = 1;
 		tag.append(Tag_EnemyAntiAir);
 		break;
 	case "ダミー": // 受身を取らないのであまり使わない
@@ -899,6 +903,17 @@ local lws_Sidou_after = "";//英語版用処理（空定義だと*が入ってしまうので）
 
 // sidou      : sidou が始動技として表示される。レシピのtext=sidou+textに変更される
 // sidouSkill : sidouSkill が始動技として表示される
+
+// resetの定義メモ
+// eResetType_None = 0,
+// eResetType_ComboHit = 1, // コンボ切れ監視あり
+// eResetType_Combo = 2, // コンボ切れ監視あり
+// eResetType_MovableHit = 3, // 自分の行動可能監視あり
+// eResetType_Movable = 4, // 自分の行動可能監視あり
+
+// eResetType_EnemyBoundHit = 5, // 相手の行動可能監視あり
+// eResetType_EnemyBound = 6, // 相手の行動可能監視あり
+		
 local skillList =
 {
 	["6"] = { type=0,  text=lws_Zensin,  mvname=["Mv_Walk_F"], reset=2 },
@@ -907,7 +922,8 @@ local skillList =
 	["8"] = { type=0,  text=lws_N_Jump,  mvname=["Mv_JumpWait_N"], reset=2 },
 	["7"] = { type=0,  text=lws_B_Jump,  mvname=["Mv_JumpWait_B"], reset=2 },
 	["66"] = { type=0,  text=lws_Dash,  mvname=["Mv_DashWait_F","Mv_Dash_F","Mv_DashStop_F"], reset=2, resetX=(1<<8) },
-	["44"] = { type=0,  text=lws_BackStep,  mvname=["Mv_Dash_B"], reset=4 },
+	["44"] = { type=0,  text=lws_BackStep,  mvname=["Mv_Dash_B"], reset=4 }, // 自分が行動可能になると終わる
+	["Combo44"] = { type=0,  text=lws_BackStep,  mvname=["Mv_Dash_B"], reset=6 }, // 相手がやられ中なら継続
 	["44_2"] = { type=0,  text="\\@2@",  mvname=["Mv_Dash_B_Add2"], reset=4 },
 
 	["6D"] = { type=0,  text=lws_Assault,  mvname=["Mv_Assault_Std"], reset=2, resetX=(1<<8) },
@@ -934,6 +950,7 @@ local skillList =
 	
 	["jc"] = { type=0,  text="\\@X@",  mvname=["Mv_JumpWait_F","Mv_JumpWait_N","Mv_JumpWait_B","Mv_JumpWait_F","Mv_JumpWait_N","Mv_JumpWait_B","Mv_MultiJump_F","Mv_MultiJump_N","Mv_MultiJump_B"], reset=2, postype=1 },
 	["8jc"] = { type=0,  text="\\@8@",  mvname=["Mv_JumpWait_N","Mv_JumpWait_N","Mv_MultiJump_N",], reset=2, postype=1 },
+	["7jc"] = { type=0,  text="\\@X@(\\@7@)",  mvname=["Mv_JumpWait_B","Mv_JumpWait_B","Mv_MultiJump_B",], reset=2, postype=1 },
 	["ajc"] = { type=0,  text=WAdd+"\\@8@",  mvname=["Mv_Skill_AerialJump"], reset=2, postype=1 },
 
 	["yuz_jc"] = { type=0,  text="\\@X@",  mvname=["Mv_Skill_BS_JumpF","Mv_Skill_BS_JumpN","Mv_Skill_BS_JumpB"], reset=2, postype=1 },
@@ -1021,7 +1038,7 @@ local skillList =
 	["JA_Suka_iJC"] = 
 	[
 		{ type=0,  text=WAAir+"\\@A@"+WKaraburi,  mvname="Mv_Atk_AirA", reset=4 },
-		{ type=0,  text=WIC+WAAir+"\\@C@",  mvname="Mv_Atk_AirC", reset=3 },
+		{ type=0,  text=WIC+WAAir+"\\@C@",  mvname="Mv_Atk_AirC", reset=3, mvcode1=def_MC1_ExtendAction },
 	],
 	
 	["A_A"] = { type=0,  text=WAdd+"\\@A@",  mvname="Mv_Atk_A_A" },
@@ -1188,6 +1205,7 @@ local skillList =
 		[Def_ChrNo_Cha] = { type=0,  text="\\@236+C@",  mvname=["Mv_Skill_236EX","Mv_Dah_StdDashAtkEX","Mv_Dah_AirDashAtkEX"] },
 		[Def_ChrNo_Aka] = { type=0,  text="\\@236+C@",  mvname=["Mv_Skill_236EX","Mv_FireBall_236EXFirst","Mv_FireBall_236EX","Mv_FireBall_236EXLast"] },
 		[Def_ChrNo_Kag] = { type=0,  text="\\@236+C@",  mvname=["Mv_FireBall_236EX1","Mv_FireBall_236EX2","Mv_FireBall_236EX3"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@236+C@",  mvname=["Mv_Skill_236EX","Mv_FireBall_236EX1","Mv_FireBall_236EX2"] },
 	},
 	
 	["mer_236EX_14"] = 
@@ -1213,35 +1231,35 @@ local skillList =
 	["Lin_i236B"] =
 	[
 		{ type=0, text="", mvname=["Mv_Skill_236B"], mvcode1=def_MC1_ExtendAction, reset=2 },
-		{ type=0,  text=WIC+"\\@236+B@",  mvname=["Mv_FireBall_i236B"], sidouSkill="\\@236+B@", },
+		{ type=0,  text=WIC+"\\@236+B@",  mvname=["Mv_FireBall_i236B"], sidouSkill="\\@236+B@", mvcode1=def_MC1_ExtendAction, },
 	],
 // EST2のエルトナム新規ミッション用にi236A,i236Bを追加
 	["Elt_i236A"] =
 	[
 		{ type=0, text="", mvname=["Mv_Skill_236A"], mvcode1=def_MC1_ExtendAction, reset=2 },
-		{ type=0,  text=WIC+"\\@236+A@",  mvname=["Mv_FireBall_i236A"], sidouSkill="\\@236+A@", },
+		{ type=0,  text=WIC+"\\@236+A@",  mvname=["Mv_FireBall_i236A"], sidouSkill="\\@236+A@", mvcode1=def_MC1_ExtendAction },
 	],
 	["Elt_i236B"] =
 	[
 		{ type=0, text="", mvname=["Mv_Skill_236B"], mvcode1=def_MC1_ExtendAction, reset=2 },
-		{ type=0,  text=WIC+"\\@236+B@",  mvname=["Mv_FireBall_i236B"], sidouSkill="\\@236+B@", },
+		{ type=0,  text=WIC+"\\@236+B@",  mvname=["Mv_FireBall_i236B"], sidouSkill="\\@236+B@", mvcode1=def_MC1_ExtendAction },
 	],
 // EST2のフォノン新規ミッション用にi236A,i236Bを追加
 	["Pho_i236A"] =
 	[
 		{ type=0, text="", mvname=["Mv_Skill_236A"], mvcode1=def_MC1_ExtendAction, reset=2 },
-		{ type=0,  text=WIC+"\\@236+A@",  mvname=["Mv_FireBall_i236A"], sidouSkill="\\@236+A@", },
+		{ type=0,  text=WIC+"\\@236+A@",  mvname=["Mv_FireBall_i236A"], sidouSkill="\\@236+A@", mvcode1=def_MC1_ExtendAction },
 	],
 	["Pho_i236B"] =
 	[
 		{ type=0, text="", mvname=["Mv_Skill_236B"], mvcode1=def_MC1_ExtendAction, reset=2 },
-		{ type=0,  text=WIC+"\\@236+B@",  mvname=["Mv_FireBall_i236B"], sidouSkill="\\@236+B@", },
+		{ type=0,  text=WIC+"\\@236+B@",  mvname=["Mv_FireBall_i236B"], sidouSkill="\\@236+B@", mvcode1=def_MC1_ExtendAction },
 	],
 
 	["Lnd_i236B"] =
 	[
 		{ type=0, text="", mvname=["Mv_Skill_236B"], mvcode1=def_MC1_ExtendAction, reset=2 },
-		{ type=0,  text=WIC+"\\@236+B@",  mvname=["Mv_FireBall_236B"], sidouSkill="\\@236+B@", },
+		{ type=0,  text=WIC+"\\@236+B@",  mvname=["Mv_FireBall_236B"], sidouSkill="\\@236+B@", mvcode1=def_MC1_ExtendAction },
 	],
 	
 	["hyd_236_236A"] = 
@@ -1250,6 +1268,16 @@ local skillList =
 	],
 	
 	// 231030 ツルギ236B空振り中下段用
+	["236A_Suka_AddB"] = 
+	[
+		{ type=0,  text="\\@236+A@"+WKaraburi,  mvname="Mv_Skill_236A", reset=4 },
+		{ type=0,  text=WAdd+"\\@6+B@",  mvname="Mv_Skill_236_AddOverKick", reset=3 },
+	],
+	["236A_Suka_FF"] = 
+	[
+		{ type=0,  text="\\@236+A@"+WKaraburi,  mvname="Mv_Skill_236A", reset=4 },
+		{ type=0,  text="\\@B+C@",  mvname=["Mv_Atk_StdBandC"], reset=4 },
+	],
 	["236B_Suka_AddB"] = 
 	[
 		{ type=0,  text="\\@236+B@"+WKaraburi,  mvname="Mv_Skill_236B", reset=4 },
@@ -1266,13 +1294,14 @@ local skillList =
 		common = { type=0,  text="\\@236+A@",  mvname=["Mv_Skill_236_236A"], },
 		[Def_ChrNo_Hyd] = { type=0,  text="\\@6+A@",  mvname=["Mv_Skill_236_236A","Mv_SousaiObj_236Bakuha"], },
 		[Def_ChrNo_Ori] = { type=0,  text="\\@6+A@",  mvname=["Mv_Skill_236A_6A"], },
-		[Def_ChrNo_Gor] = { type=0,  text="\\@6+A@",  mvname=["Mv_Skill_236_236"], },
+		[Def_ChrNo_Gor] = { type=0,  text="\\@6+A@",  mvname=["Mv_Skill_236A_236A"], },
 	},
+	
 	["236_236B"] = 
 	{
 		common = { type=0,  text="\\@236+B@",  mvname=["Mv_Skill_236_236","Mv_Skill_236_236B"], },
 		[Def_ChrNo_Hyd] = { type=0,  text="\\@6+B@",  mvname=["Mv_Skill_236_236B"], },
-		[Def_ChrNo_Gor] = { type=0,  text="\\@6+B@",  mvname=["Mv_Skill_236_236"], },
+		[Def_ChrNo_Gor] = { type=0,  text="\\@6+B@",  mvname=["Mv_Skill_236B_236B"], },
 	},
 	
 	["236_236_236A"] =
@@ -1341,6 +1370,17 @@ local skillList =
 		{ type=0,  text="\\@46+C@",  mvname=["Mv_Skill_236_236EX","Mv_FireBall_236BakuhaEX"] },
 	],
 	
+	["236A_Add"] = 
+	{
+		common = { type=0,  text="\\@A@",  mvname=["Mv_Skill_236A_Add"], },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_236A_Add"] },
+	},
+	["236B_Add"] = 
+	{
+		common = { type=0,  text="\\@B@",  mvname=["Mv_Skill_236B_Add"], },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@B@",  mvname=["Mv_Skill_236B_Add"] },
+	},
+	
 	["236_AddA"] =
 	{
 		common = { type=0,  text="\\@6+A@",  mvname=["Mv_Skill_236_AddA"] },
@@ -1401,13 +1441,18 @@ local skillList =
 		common = { type=0,  text="\\@6+A@",  mvname=["Mv_Skill_236Add_AddA"] },
 		[Def_ChrNo_Enk] = { type=0,  text="\\@6+A@",  mvname=["Mv_Skill_236_AddA_Add"] },
 		[Def_ChrNo_Kag] = { type=0,  text="\\@6+A@",  mvname=["Mv_Skill_236_Add_AddA"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_236_Add_AddA"] },
 	},
 	["236Add_AddB"] = 
 	{
 		common = { type=0,  text="\\@6+B@",  mvname=["Mv_Skill_236Add_AddB"] },
 		[Def_ChrNo_Enk] = { type=0,  text="\\@6+B@",  mvname=["Mv_Skill_236_AddB_Add"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@B@",  mvname=["Mv_Skill_236_Add_AddB"] },
 	},
-	["236Add_AddC"] = { type=0,  text="\\@6+C@",  mvname=["Mv_Skill_236Add_AddC"] },
+	["236Add_AddC"] = {
+		common = { type=0,  text="\\@6+C@",  mvname=["Mv_Skill_236Add_AddC"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@C@",  mvname=["Mv_Skill_236_Add_AddC"] },
+	},
 
 	["236_JAdd4A"] = { type=0,  text="\\@4+A@",  mvname=["Mv_Skill_236_JAdd4"] },
 	
@@ -1581,6 +1626,7 @@ local skillList =
 		[Def_ChrNo_Hil] = { type=0,  text="\\@214+A@",  mvname=["Mv_SousaiObj214A","Mv_Skill_214A"] },
 		[Def_ChrNo_Cha] = { type=0,  text="\\@214+A@",  mvname=["Mv_Skill_214A","Mv_Dah_StdFireAtkA","Mv_Dah_AirFireAtkA","Mv_FireBall_DahAtkA","Mv_FireBall_DahAtkJA"] },
 		[Def_ChrNo_Bya] = { type=0,  text="\\@214+A@",  mvname=["Mv_Skill_214A","Mv_214ANetAtk"] },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@214+A@",  mvname=["Mv_Skill_214A","Mv_AtkObj_CoffinA"] },
 	},
 	["214B"] = 
 	{
@@ -1596,6 +1642,8 @@ local skillList =
 		[Def_ChrNo_Hil] = { type=0,  text="\\@214+B@",  mvname=["Mv_SousaiObj214B","Mv_Skill_214B"] },
 		[Def_ChrNo_Cha] = { type=0,  text="\\@214+B@",  mvname=["Mv_Skill_214B","Mv_Dah_StdFireAtkB","Mv_Dah_AirFireAtkB","Mv_FireBall_DahAtkB","Mv_FireBall_DahAtkJB"] },
 		[Def_ChrNo_Bya] = { type=0,  text="\\@214+B@",  mvname=["Mv_Skill_214B","Mv_214BNetAtk"] },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@214+B@",  mvname=["Mv_Skill_214B","Mv_AtkObj_CoffinB"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@214+B@",  mvname=["Mv_Skill_214B","Mv_FireBall_214B","Mv_AtkLandObj_BubbleBall"] }, // 厳密にはおかしい
 	},
 	["214C"] = 
 	{
@@ -1610,6 +1658,7 @@ local skillList =
 		[Def_ChrNo_Mer] = { type=0,  text="\\@214+C@",  mvname="Mv_Skill_214EX_Hit" },
 		[Def_ChrNo_Hil] = { type=0,  text="\\@214+C@",  mvname=["Mv_Skill_214EX","Mv_SousaiObj214EX"] },
 		[Def_ChrNo_Cha] = { type=0,  text="\\@214+C@",  mvname=["Mv_Skill_214EX","Mv_Dah_StdFireAtkEX","Mv_Dah_AirFireAtkEX","Mv_FireBall_DahAtkEX","Mv_FireBall_DahAtkJEX"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@214+C@",  mvname=["Mv_Skill_214EX","Mv_FireBall_214EX","Mv_AtkObj_BubbleBallEX"] },
 	},
 	["214AorB"] = { type=0,  text="\\@214+AorB@",  mvname=["Mv_Skill_214A","Mv_Skill_214B"] },
 	["214AorC"] = { type=0,  text="\\@214+AorC@",  mvname=["Mv_Skill_214A","Mv_Skill_214C","Mv_Skill_214EX"] },
@@ -1733,6 +1782,44 @@ local skillList =
 		[Def_ChrNo_Pho] = { type=0,  text="\\@4+B@",  mvname="Mv_Skill_214B_Add", },
 	},	
 	
+	["214A_4A"] = 
+	{
+		common = { type=0,  text="\\@4+A@",  mvname="Mv_Skill_214A_Add4A", },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@4+A@",  mvname=["Mv_Skill_214A_AddA","Mv_AtkLandObj_CA_AtkA"], },
+		[Def_ChrNo_Ogr] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_214A_AddA"], },
+	},	
+	["214A_4B"] = 
+	{
+		common = { type=0,  text="\\@4+B@",  mvname="Mv_Skill_214A_Add4B", },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@4+B@",  mvname=["Mv_Skill_214A_AddB","Mv_AtkLandObj_CA_AtkB"], },
+		[Def_ChrNo_Ogr] = { type=0,  text="\\@B@",  mvname=["Mv_Skill_214A_AddB"], },
+	},	
+	["214A_4C"] = 
+	{
+		common = { type=0,  text="\\@4+C@",  mvname="Mv_Skill_214A_Add4C", },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@4+C@",  mvname=["Mv_Skill_214A_AddC","Mv_AtkLandObj_CA_AtkC"], },
+		[Def_ChrNo_Ogr] = { type=0,  text="\\@C@",  mvname=["Mv_Skill_214A_AddC"], },
+	},	
+	["214B_4A"] = 
+	{
+		common = { type=0,  text="\\@4+A@",  mvname="Mv_Skill_214B_Add4A", },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@4+A@",  mvname=["Mv_Skill_214B_AddA","Mv_AtkLandObj_CB_AtkA"], },
+	},	
+	["214B_4B"] = 
+	{
+		common = { type=0,  text="\\@4+B@",  mvname="Mv_Skill_214B_Add4B", },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@4+B@",  mvname=["Mv_Skill_214B_AddB","Mv_AtkLandObj_CB_AtkB"], },
+	},	
+	["214B_4C"] = 
+	{
+		common = { type=0,  text="\\@4+C@",  mvname="Mv_Skill_214B_Add4C", },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@4+C@",  mvname=["Mv_Skill_214B_AddC","Mv_AtkLandObj_CB_AtkC"], },
+	},	
+	["214_AddJump"] = 
+	{
+		common = { type=0,  text="\\@8@",  mvname="Mv_Skill_214_AddJump", reset=2, postype=1 },
+	},	
+	
 	["Set214_AddA"] = 
 	[
 		{ type=0,  text="",  mvname=["Mv_Skill_214A","Mv_Skill_214B","Mv_Skill_214C"], reset=6 },
@@ -1848,6 +1935,8 @@ local skillList =
 		[Def_ChrNo_Cha] = { type=0,  text="\\@22+A@",  mvname=["Mv_Skill_0202A","Mv_Dah_HidingAtkA"] },
 		[Def_ChrNo_Elt] = { type=0,  text="\\@22+A@",  mvname=["Mv_Skill_0202A","Mv_SousaiObj_0202A"] },
 		[Def_ChrNo_Wag] = { type=0,  text="\\@22+A@",  mvname=["Mv_Skill_0202A"],reset=4 },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@22+A@",  mvname=["Mv_Skill_0202A","Mv_AtkObj_AO_0202A"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@22+A@",  mvname=["Mv_Skill_0202A","Mv_AtkLandObj_AO_0202A"] },
 	},
 	["22B"] = 
 	{
@@ -1863,6 +1952,8 @@ local skillList =
 		[Def_ChrNo_Cha] = { type=0,  text="\\@22+B@",  mvname=["Mv_Skill_0202B","Mv_Dah_HidingAtkB"] },
 		[Def_ChrNo_Elt] = { type=0,  text="\\@22+B@",  mvname=["Mv_Skill_0202B","Mv_SousaiObj_0202B"] },
 		[Def_ChrNo_Wag] = { type=0,  text="\\@22+B@",  mvname=["Mv_Skill_0202B"],reset=4 },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@22+B@",  mvname=["Mv_Skill_0202B","Mv_AtkObj_AO_0202B"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@22+B@",  mvname=["Mv_Skill_0202B","Mv_AtkLandObj_AO_0202B"] },
 	},
 	["22C"] = 
 	{
@@ -1879,6 +1970,8 @@ local skillList =
 		[Def_ChrNo_Hil] = { type=0,  text="\\@22+C@",  mvname=["Mv_Skill_0202EX","Mv_0202EXTakenoko"] },
 		[Def_ChrNo_Cha] = { type=0,  text="\\@22+C@",  mvname=["Mv_Skill_0202EX","Mv_Dah_HidingAtkEX"] },
 		[Def_ChrNo_Car] = { type=0,  text="\\@22+C@",  mvname=["Mv_Skill_0202EX","Mv_Obj_0202EX_Obj_Hit"] },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@22+C@",  mvname=["Mv_Skill_0202EX","Mv_AtkObj_AO_0202EX1","Mv_AtkObj_AO_0202EX2","Mv_AtkObj_AO_0202EX3","Mv_AtkObj_AO_0202EX4","Mv_AtkObj_AO_0202EX5"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@22+C@",  mvname=["Mv_Skill_0202EX","Mv_AtkLandObj_AO_0202EX"] },
 	},
 	["Elt_22B"] =
 	[
@@ -1930,6 +2023,7 @@ local skillList =
 		common = { type=0,  text=WAAir+"\\@236+A@",  mvname=["Mv_Skill_J236A","Mv_FireBall_J236A"] },
 		[Def_ChrNo_Car] = { type=0,  text=WAAir+"\\@236+A@",  pat=140 }, // 車輪のヒットを監視
 		[Def_ChrNo_Cha] = { type=0,  text=WAAir+"\\@236+A@",  mvname=["Mv_Skill_236A","Mv_Dah_StdDashAtk","Mv_Dah_AirDashAtk"] },
+		[Def_ChrNo_Udu] = { type=0,  text=WAAir+"\\@236+A@",  mvname=["Mv_Skill_J236A","Mv_FireBall_J236A","Mv_FireBall_J236A2"] },
 	},
 	["J236B"] = 
 	{
@@ -1937,6 +2031,7 @@ local skillList =
 		[Def_ChrNo_Car] = { type=0,  text=WAAir+"\\@236+B@",  pat=141 }, // 車輪のヒットを監視
 		[Def_ChrNo_Cha] = { type=0,  text=WAAir+"\\@236+B@",  mvname=["Mv_Skill_236B","Mv_Dah_StdUpperAtk","Mv_Dah_AirUpperAtk"] },
 		[Def_ChrNo_Nan] = { type=0,  text=WAAir+"\\@236+B@",  mvname=["Mv_Skill_J236B","Mv_FireBall_J236B","Mv_FireBall_J236BAdd"] },
+		[Def_ChrNo_Udu] = { type=0,  text=WAAir+"\\@236+B@",  mvname=["Mv_Skill_J236B","Mv_FireBall_J236B","Mv_FireBall_J236B2"] },
 	},
 	["J236C"] = { type=0,  text=WAAir+"\\@236+C@",  mvname=["Mv_Skill_J236C","Mv_FireBall_J236C"] },
 	["Kuo_J236C"] = { type=0,  text=WAAir+"\\@6+B+C@",  mvname=["Mv_Skill_J236C","Mv_FireBall_J236C"] },
@@ -1946,6 +2041,7 @@ local skillList =
 		[Def_ChrNo_Car] = { type=0,  text=WAAir+"\\@236+C@",  pat=139 }, // 車輪のヒットを監視
 		[Def_ChrNo_Cha] = { type=0,  text=WAAir+"\\@236+C@",  mvname=["Mv_Skill_J236EX","Mv_Dah_StdDashAtkEX","Mv_Dah_AirDashAtkEX"] },
 		[Def_ChrNo_Aka] = { type=0,  text=WAAir+"\\@236+C@",  mvname=["Mv_Skill_J236EX","Mv_FireBall_J236EXFirst","Mv_FireBall_J236EX","Mv_FireBall_J236EXLast"] },
+		[Def_ChrNo_Udu] = { type=0,  text=WAAir+"\\@236+C@",  mvname=["Mv_Skill_J236EX","Mv_FireBall_J236EX","Mv_FireBall_J236EX2"] },
 	},
 	
 	["J236_AddA"] =
@@ -2017,12 +2113,12 @@ local skillList =
 	["Mer_iJ214A"] =
 	[
 		{ type=0, text="", mvname=["Mv_Skill_J214A"], mvcode1=def_MC1_ExtendAction, reset=2 },
-		{ type=0,  text=WIC+WAAir+"\\@214+A@",  mvname=["Mv_FireBall_iJ214A"], },
+		{ type=0,  text=WIC+WAAir+"\\@214+A@",  mvname=["Mv_FireBall_iJ214A"], mvcode1=def_MC1_ExtendAction },
 	],
 	["Mer_iJ214B"] =
 	[
 		{ type=0, text="", mvname=["Mv_Skill_J214B"], mvcode1=def_MC1_ExtendAction, reset=2 },
-		{ type=0,  text=WIC+WAAir+"\\@214+B@",  mvname=["Mv_FireBall_iJ214B"], },
+		{ type=0,  text=WIC+WAAir+"\\@214+B@",  mvname=["Mv_FireBall_iJ214B"], mvcode1=def_MC1_ExtendAction },
 	],
 	
 	["J44"] = 
@@ -2030,9 +2126,8 @@ local skillList =
 		common = { type=0,  text=WAAir+"\\@44@ or \\@4+A+B@",  mvname="Mv_Skill_J0202B" },
 		[Def_ChrNo_Set] = { type=0,  text=WAAir+"\\@44@ or \\@4+A+B@",  mvname="Mv_Skill_J0202B", reset=4 },
 		[Def_ChrNo_Elt] = { type=0,  text=WAAir+"\\@44@ or \\@4+A+B@",  mvname="Mv_Skill_J0202B", reset=4 },
-		[Def_ChrNo_Hil] = { type=0,  text=WAAir+"\\@44@ or \\@4+A+B@",  mvname="Mv_Skill_J0202B", reset=4 },
 	},
-	
+
 	["J22"] = 
 	{
 		common = { type=0,  text=WAAir+"\\@2+A+B@",  mvname="Mv_Skill_J0202A" },
@@ -2078,12 +2173,7 @@ local skillList =
 	["66B"] = { type=0,  text=lws_Dash+"\\@B@",  mvname="Mv_Atk_DashStdB" },
 	// ["66B(1)"] = { type=0,  text="ダッシュ\\@B@ １ヒットのみ",  mvname="Mv_Atk_DashStdB" },
 
-	//Custom Definitions for 66FF and Wagner's 66FF
-
 	["66C"] = { type=0,  text=lws_Dash+"\\@C@",  mvname="Mv_Atk_DashStdC" },
-	["66FF"] = { type=0,  text=lws_Dash+"\\@B+C@",  mvname="Mv_Atk_DashStdBandC" },
-	["Wag66FF"] = { type=0,  text=lws_Dash+"\\@B+C@",  mvname="Mv_FireBall_DashStdBandC" },
-	["MikaAdd"] = { type=0,  text="\\@AorBorC@",  mvname="Mv_Skill_0202_Add" },
 	["Kag66C"] = { type=0,  text=lws_Dash+"\\@C@",  mvname="Mv_FireBall_DashStdC" },
 	
 	["VO"] = { type=0,  text="\\@U@",  mvname="Mv_Liberate", reset=2 },
@@ -2172,6 +2262,7 @@ local skillList =
 	["63214EX"] = {
 		common = { type=0,  text="\\@214B+C@",  mvname="Mv_Skill_63214EX" },
 		[Def_ChrNo_Lin] = { type=0,  text="\\@22+C@",  mvname="Mv_Skill_63214EX" },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@214B+C@",  mvname=["Mv_Skill_63214EX","Mv_FireBall_63214EX"] },
 	},
 
 	["CircleA"] = { type=0,  text=lws_Kaiten+"\\@+A@",  mvname="Mv_Skill_CircleA" },
@@ -2184,6 +2275,7 @@ local skillList =
 	["632146B"] = { type=0,  text="\\@632146+B@",  mvname="Mv_Skill_63214B" },
 	["632146C"] = { type=0,  text="\\@632146+C@",  mvname="Mv_Skill_63214C" },
 	["632146EX"] = { type=0,  text="\\@632146+C@",  mvname="Mv_Skill_63214EX" },
+	["632146AorC"] = { type=0,  text="\\@632146+AorC@",  mvname=["Mv_Skill_63214A","Mv_Skill_63214C","Mv_Skill_63214EX"] },//※オーガ戦術指南用
 	["41236EX"] = {
 		common = { type=0,  text="\\@236B+C@",  mvname="Mv_Skill_41236EX" },
 		[Def_ChrNo_Hyd] = { type=0,  text="\\@236B+C@",  mvname="Mv_Skill_41236EX", pat=277 },
@@ -2235,6 +2327,7 @@ local skillList =
 	["2FF"] = 
 	{
 		common = { type=0,  text="\\@2+B+C@",  mvname=["Mv_Atk_CroBandC"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@6+B+C@",  mvname=["Mv_Atk_CroBandC"] },
 	},
 
 	["FF_Atk"] =
@@ -2257,6 +2350,21 @@ local skillList =
 	["FF_Add8"] = { type=0,  text="\\@8@",  mvname="Mv_Atk_StdBandC_AddJump" },
 	["FF_Add9"] = { type=0,  text="\\@9@",  mvname="Mv_Atk_StdBandC_AddJump" },
 
+	["2FF_AddA"] = 
+	{
+		common = { type=0,  text="\\@A@",  mvname=["Mv_Atk_CroBandC_AddA"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@A@",  mvname="Mv_Skill_FFDash_AddA" },
+	},
+	["2FF_AddB"] = 
+	{
+		common = { type=0,  text="\\@B@",  mvname=["Mv_Atk_CroBandC_AddB"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@B@",  mvname="Mv_Skill_FFDash_AddB" },
+	},
+	["2FF_AddC"] = 
+	{
+		common = { type=0,  text="\\@C@",  mvname=["Mv_Atk_CroBandC_AddC"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@C@",  mvname="Mv_Skill_FFDash_AddC" },
+	},
 	
 	["Pho_iFF_9"] = 
 	{
@@ -2279,6 +2387,7 @@ local skillList =
 		[Def_ChrNo_Pho] = { type=0,  text="\\@41236+D@",  mvname=["Mv_Skill_41236SP","Mv_AtkObj_IW_Crash"] },
 		[Def_ChrNo_Elt] = { type=0,  text="\\@41236+D@",  mvname=["Mv_Skill_41236SP","Mv_AtkObj_IW_AtkRect","Mv_AtkObj_IW_LastAtkRect"] },
 		[Def_ChrNo_Enk] = { type=0,  text="\\@41236+D@",  mvname=["Mv_Skill_41236SP","Mv_AtkObj_IWTama"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@41236+D@",  mvname=["Mv_Skill_41236SP","Mv_AtkObj_IW_AtkRect","Mv_AtkObj_IW_RapidRect"] },
 	},
 	
 	["IWE"] = { type=0,  text="\\@A+B+C+D@",  mvname=["Mv_Skill_IWEXIST"] },
@@ -2304,6 +2413,7 @@ local skillList =
 		[Def_ChrNo_Mik] = { type=0,  text="\\@A@",  mvname=["Mv_Atk_CroC"] },
 		[Def_ChrNo_Kag] = { type=0,  text="\\@A@",  mvname=["Mv_Atk_B_B"] },
 		[Def_ChrNo_Pho] = { type=0,  text="\\@A@",  mvname=["Mv_Atk_CroC"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@A@",  mvname=["Mv_Atk_B_B"] },
 	},
 	["A4"] = 
 	{
@@ -2325,13 +2435,15 @@ local skillList =
 		[Def_ChrNo_Aka] = { type=0,  text="\\@A@",  mvname=["Mv_FireBall_236B"] },
 		[Def_ChrNo_Cha] = { type=0,  text="\\@A@",  mvname=["Mv_Atk_CroC"] },
 		[Def_ChrNo_Wag] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_236A"] },
-		[Def_ChrNo_Enk] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_0202A"] },
+		[Def_ChrNo_Enk] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_236A"] },
 		[Def_ChrNo_Lnd] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_214A"] },
 		[Def_ChrNo_Tsu] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_236A"] },
-		[Def_ChrNo_Mik] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_0202A"] },
+		[Def_ChrNo_Mik] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_623A"] },
 		[Def_ChrNo_Kag] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_236A"] },
 		[Def_ChrNo_Kuo] = { type=0,  text="\\@A@",  mvname=["Mv_FireBall_236A"] },
 		[Def_ChrNo_Pho] = { type=0,  text="\\@A@",  mvname=["Mv_FireBall_236B"] },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@A@",  mvname=["Mv_Atk_CroC"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_236B"] },
 	},
 	["A5"] = 
 	{
@@ -2347,6 +2459,8 @@ local skillList =
 		[Def_ChrNo_Cha] = { type=0,  text="\\@A@",  mvname=["Mv_Obj_Eff_BarrierAtk"] },
 		[Def_ChrNo_Kag] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_SSRelayAtk"] },
 		[Def_ChrNo_Kuo] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_SSRelayAtk"] },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_0202A","Mv_AtkObj_AO_0202A"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_SSRelayAtk"] },
 	},
 	["A6"] = 
 	{
@@ -2375,6 +2489,9 @@ local skillList =
 		[Def_ChrNo_Kag] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_41236SP"] },
 		[Def_ChrNo_Kuo] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_41236SP"] },
 		[Def_ChrNo_Pho] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_41236SP","Mv_AtkObj_IW_Crash"] },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_SSRelayAtk"] },
+		[Def_ChrNo_Ogr] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_41236SP"] },
+		[Def_ChrNo_Izu] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_41236SP","Mv_AtkObj_IW_AtkRect","Mv_AtkObj_IW_RapidRect"] },
 	},
 	["A7"] = 
 	{
@@ -2385,6 +2502,7 @@ local skillList =
 		[Def_ChrNo_Set] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_41236SP"] },
 		[Def_ChrNo_Hil] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_41236SP"] },
 		[Def_ChrNo_Cha] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_41236SP"] },
+		[Def_ChrNo_Udu] = { type=0,  text="\\@A@",  mvname=["Mv_Skill_41236SP"] },
 	},
 	["A8"] = 
 	{
@@ -2523,6 +2641,15 @@ local getSkillEff = function( wordparam ) : (margeTableVal)
 		// ret_param.param.type <- 1; // Flag監視タイプ
 		// ret_param.param.mvflag <- 4; // インクリース
 		// print("\n atkword3:"+ret_param.word );
+	}
+	else
+	{
+		// インクリースじゃないのにインクリースしたら失敗
+		// いい加減なチェックでバグありのため、デバッグ時のみ有効にすること
+		if( 0 )
+		{
+			ret_param.param.ng_mvcode1 <- def_MC1_ExtendAction; // インクリース
+		}
 	}
 	
 	// ボタンホールド
@@ -2911,6 +3038,18 @@ MakeSkill <- function( _msp={} ) : (skillList, getSkillEff, margeTableVal)
 					if( postype == 0 )
 					{
 						dmgRecipeLength = 0;
+					}
+				}
+				
+				if( 0 )
+				{
+					// 余計なNGフラグがあったら消す
+					if( "mvcode1" in addparam && "ng_mvcode1" in addparam )
+					{
+						if( addparam.mvcode1&def_MC1_ExtendAction )
+						{
+							addparam.ng_mvcode1 = addparam.ng_mvcode1&~def_MC1_ExtendAction;
+						}
 					}
 				}
 	

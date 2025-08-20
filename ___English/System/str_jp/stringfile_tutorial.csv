@@ -24,74 +24,6 @@ tutorial_define_tci007,A challenging combo suitable for expert players.
 tutorial_define_tci008,An explanation of combat.
 tutorial_define_tci009,An explanation of combat for intermediate players.
 tutorial_define_tci010,An explanation of combat for advanced players.
-
-//Begin custom text
-
-//Hyde
-tutorial_define_custom,"These combos are easier combos to supplement Hyde's missions.
- Some require the use of delayed rekkas (\@214A@ or \@214B@), a key part of his combo structure.
- If you can't do that yet, end those combos there."
- 
-tutorial_define_Hyd2A,Good balance between damage and corner carry. Buffer the dash so that Hyde starts running as he lands. You can do this by double tapping and then holding forward while Hyde is in the air after pressing Aerial\@6C@.
-tutorial_define_Hyd2A1,"\@2A@ can be replaced with any normal into \@2C@ for more damage. \@22A@ into \@3B@ is a tricky link at first, but essential in Hyde's corner combos. If you can do it, you'll be well on your way to learning other corner combos."
-tutorial_define_Hyd5A,"Works anywhere, and off of any normal (except \@2A@, \@6B@ & \@3C@). Delayed rekkas are the backbone of many of Hyde's combos. Once you can delay rekkas consistently, make learning this route a priority. \@A@ or \@B@ rekkas work."
-tutorial_define_Hyd6B,Basic \@6B@ combo at midscreen. \@A@ or \@B@ rekkas work.
-tutorial_define_Hyd6B1,"The \@22A@ link can be a bit tricky at first, but this is a very strong combo that is relatively easy. You can also use both hits of \@6B@ and skip increase \@C@ for more damage. \@B+C@ is also optional if you want to save GRD."
-tutorial_define_Hyd3B,Easy anti-air combo. The whiff \@2A@ rebeat is key in combo routing off an anti-air \@3C@. Making \@2A@ miss instead of waiting \@3C@ to end means it's easier to land a hit before the opponent hits the ground and is able to tech.
-tutorial_define_Hyd3B1,Basic anti-air combo on non-counter hits. Jump cancel must be a neutral jump. Forward jumping can make 66C cross up.
-tutorial_define_Hyd236X,"\@236A@ or \@B@ followup \@6A@ is one of Hyde's best moves, so being able to convert a hit into a combo is extremely useful. If you're new, don't worry about delaying the rekkas and end the combo there."
-tutorial_define_Hyd22A,"Great for starting pressure since \@236C@ allows you to approach safely on block. \@22A@ is one Hyde's best pokes, but can't be converted into a combo outside of the corner without meter or chain shift."
-
-//Wagner
-
-tutorial_define_vais,"These are Wagner combos from the pinned Wagner doc by Vais."
-
-tutorial_define_Wag5A,"High damage\@A@ starter midscreen BnB. Also works with \@2A@."
-tutorial_define_Wag5A1,"High damage\@A@ starter corner BnB. Also works with \@2A@."
-tutorial_define_Wag5B,"High damage\@B@ starter BnB. Easier in vorpal."
-tutorial_define_Wag5C,"Midscreen\@C@ starter BnB. Requires 2 FFs."
-tutorial_define_Wag5C1,"Corner\@C@ starter BnB. Requires 1 FF."
-tutorial_define_Wag5C2,"Corner\@C@ starter generic meter ender. Can also do \@22C@ \@236B@ > \@B@ J \@2C@   non vorpal for better oki (+20) but only shield buff and a loss of 63 damage."
-
-//Mika
-
-tutorial_define_Vegas,"These are Mika combos from the pinned Mika doc by Vegas Orb Enjoyer."
-
-tutorial_define_Mika1,"Starter is anything. This combo uses \@2A@ \@2A@ for example. \@236B@ delay is optional but without delay it will sideswap. More notes on the doc."
-tutorial_define_Mika2,"Good starter means any \@B@ normal \@C@ normal \@66B@ and counter hit normals."
-tutorial_define_Mika3,"Basic metered anti-air combo midscreen variation."
-tutorial_define_Mika4,"Bad Starter corner combo variation 1. Uses Force Function to deal more damage but costs more GRD."
-tutorial_define_Mika5,"Bad Starter corner combo variation 2. Has an alternative ender that doesn't use FF which saves GRD."
-tutorial_define_Mika6,"Good starter means any \@B@ normal \@C@ normal \@66B@ and counter hit normals. It's possible to do 3B instead of TK j.236A but it loses on damage. The trick is to try to do the TK when the hitstun from the starter ends. Otherwise the recovery frames will stop you from doing TK properly."
-tutorial_define_Mika7,"Basic anti-air combo corner variation. Unlike the midscreen version this one does not require meter. The first jump cancel in this REQUIRES it to be directly up (8)."
-
-//Hilda
-
-tutorial_define_Achan,"These are newer Hilda combos for UNI2 by a-chan."
-
-tutorial_define_Hilda1,"Midscreen bad starter. Can do \@2A@ up to 3 times. Slightly more damaging route. There is a slight meter focused route on the doc."
-tutorial_define_Hilda2,"Midscreen \@B@ starter."
-tutorial_define_Hilda3,"Midscreen \@66B@ starter."
-tutorial_define_Hilda4,"Midscreen \@2C@ starter."
-tutorial_define_Hilda5,"Midscreen \@iC@ starter."
-tutorial_define_Hilda6,"Corner bad starter. Can do \@2A@ up to 3 times."
-tutorial_define_Hilda7,"Corner \@B@ starter. After 3B, you have to jump vertically (8) otherwise the combo will drop."
-tutorial_define_Hilda8,"Max damage \@B@ starter."
-tutorial_define_Hilda9,"Max damage \@iJC@ starter. You'll have to back up a little farther than backdash range so that j.[C] will connect with 236B."
-
-
-//Tsurugi
-
-tutorial_define_RedSlasher,"These are Tsurugi combos from the pinned Tsurugi doc by RedSlasher."
-tutorial_define_Tsurugi1,"Bad Starter \@A@ starter combo."
-tutorial_define_Tsurugi2,"Optimal midscreen \@A@ starter combo. Omit the \@J236EX@ for meterless version."
-tutorial_define_Tsurugi3,"Optimal midscreen \@B@ starter combo."
-
-//Londrekia
-
-tutorial_define_Tukibito,"These are Londrekia combos from the pinned Londrekia doc by Tukibito."
-tutorial_define_Tsurugi1,"Bad Starter \@A@ starter combo."
-
 tutorial_define_tci011,Confirm special attacks.
 tutorial_define_tci012,Risky
 tutorial_define_tci013,Overhead mixup
@@ -281,3 +213,71 @@ tutorial_define_tti016,This tutorial explains \cFFCD40detailed rules\cX that app
 tutorial_define_tti017,"This tutorial explains \cFFCD40command input technique.\cX\n
 Here, you will learn how to execute complex commands like \@236+A@ \n
 and \@623+A@."
+
+
+//Begin custom text
+
+//Hyde
+tutorial_define_custom,"These combos are easier combos to supplement Hyde's missions.
+ Some require the use of delayed rekkas (\@214A@ or \@214B@), a key part of his combo structure.
+ If you can't do that yet, end those combos there."
+ 
+tutorial_define_Hyd2A,Good balance between damage and corner carry. Buffer the dash so that Hyde starts running as he lands. You can do this by double tapping and then holding forward while Hyde is in the air after pressing Aerial\@6C@.
+tutorial_define_Hyd2A1,"\@2A@ can be replaced with any normal into \@2C@ for more damage. \@22A@ into \@3B@ is a tricky link at first, but essential in Hyde's corner combos. If you can do it, you'll be well on your way to learning other corner combos."
+tutorial_define_Hyd5A,"Works anywhere, and off of any normal (except \@2A@, \@6B@ & \@3C@). Delayed rekkas are the backbone of many of Hyde's combos. Once you can delay rekkas consistently, make learning this route a priority. \@A@ or \@B@ rekkas work."
+tutorial_define_Hyd6B,Basic \@6B@ combo at midscreen. \@A@ or \@B@ rekkas work.
+tutorial_define_Hyd6B1,"The \@22A@ link can be a bit tricky at first, but this is a very strong combo that is relatively easy. You can also use both hits of \@6B@ and skip increase \@C@ for more damage. \@B+C@ is also optional if you want to save GRD."
+tutorial_define_Hyd3B,Easy anti-air combo. The whiff \@2A@ rebeat is key in combo routing off an anti-air \@3C@. Making \@2A@ miss instead of waiting \@3C@ to end means it's easier to land a hit before the opponent hits the ground and is able to tech.
+tutorial_define_Hyd3B1,Basic anti-air combo on non-counter hits. Jump cancel must be a neutral jump. Forward jumping can make 66C cross up.
+tutorial_define_Hyd236X,"\@236A@ or \@B@ followup \@6A@ is one of Hyde's best moves, so being able to convert a hit into a combo is extremely useful. If you're new, don't worry about delaying the rekkas and end the combo there."
+tutorial_define_Hyd22A,"Great for starting pressure since \@236C@ allows you to approach safely on block. \@22A@ is one Hyde's best pokes, but can't be converted into a combo outside of the corner without meter or chain shift."
+
+//Wagner
+
+tutorial_define_vais,"These are Wagner combos from the pinned Wagner doc by Vais."
+
+tutorial_define_Wag5A,"High damage\@A@ starter midscreen BnB. Also works with \@2A@."
+tutorial_define_Wag5A1,"High damage\@A@ starter corner BnB. Also works with \@2A@."
+tutorial_define_Wag5B,"High damage\@B@ starter BnB. Easier in vorpal."
+tutorial_define_Wag5C,"Midscreen\@C@ starter BnB. Requires 2 FFs."
+tutorial_define_Wag5C1,"Corner\@C@ starter BnB. Requires 1 FF."
+tutorial_define_Wag5C2,"Corner\@C@ starter generic meter ender. Can also do \@22C@ \@236B@ > \@B@ J \@2C@   non vorpal for better oki (+20) but only shield buff and a loss of 63 damage."
+
+//Mika
+
+tutorial_define_Vegas,"These are Mika combos from the pinned Mika doc by Vegas Orb Enjoyer."
+
+tutorial_define_Mika1,"Starter is anything. This combo uses \@2A@ \@2A@ for example. \@236B@ delay is optional but without delay it will sideswap. More notes on the doc."
+tutorial_define_Mika2,"Good starter means any \@B@ normal \@C@ normal \@66B@ and counter hit normals."
+tutorial_define_Mika3,"Basic metered anti-air combo midscreen variation."
+tutorial_define_Mika4,"Bad Starter corner combo variation 1. Uses Force Function to deal more damage but costs more GRD."
+tutorial_define_Mika5,"Bad Starter corner combo variation 2. Has an alternative ender that doesn't use FF which saves GRD."
+tutorial_define_Mika6,"Good starter means any \@B@ normal \@C@ normal \@66B@ and counter hit normals. It's possible to do 3B instead of TK j.236A but it loses on damage. The trick is to try to do the TK when the hitstun from the starter ends. Otherwise the recovery frames will stop you from doing TK properly."
+tutorial_define_Mika7,"Basic anti-air combo corner variation. Unlike the midscreen version this one does not require meter. The first jump cancel in this REQUIRES it to be directly up (8)."
+
+//Hilda
+
+tutorial_define_Achan,"These are newer Hilda combos for UNI2 by a-chan."
+
+tutorial_define_Hilda1,"Midscreen bad starter. Can do \@2A@ up to 3 times. Slightly more damaging route. There is a slight meter focused route on the doc."
+tutorial_define_Hilda2,"Midscreen \@B@ starter."
+tutorial_define_Hilda3,"Midscreen \@66B@ starter."
+tutorial_define_Hilda4,"Midscreen \@2C@ starter."
+tutorial_define_Hilda5,"Midscreen \@iC@ starter."
+tutorial_define_Hilda6,"Corner bad starter. Can do \@2A@ up to 3 times."
+tutorial_define_Hilda7,"Corner \@B@ starter. After 3B, you have to jump vertically (8) otherwise the combo will drop."
+tutorial_define_Hilda8,"Max damage \@B@ starter."
+tutorial_define_Hilda9,"Max damage \@iJC@ starter. You'll have to back up a little farther than backdash range so that j.[C] will connect with 236B."
+
+
+//Tsurugi
+
+tutorial_define_RedSlasher,"These are Tsurugi combos from the pinned Tsurugi doc by RedSlasher."
+tutorial_define_Tsurugi1,"Bad Starter \@A@ starter combo."
+tutorial_define_Tsurugi2,"Optimal midscreen \@A@ starter combo. Omit the \@J236EX@ for meterless version."
+tutorial_define_Tsurugi3,"Optimal midscreen \@B@ starter combo."
+
+//Londrekia
+
+tutorial_define_Tukibito,"These are Londrekia combos from the pinned Londrekia doc by Tukibito."
+tutorial_define_Tsurugi1,"Bad Starter \@A@ starter combo."
